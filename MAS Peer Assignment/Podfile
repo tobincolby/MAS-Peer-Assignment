@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MAS Peer Assignment' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MAS Peer Assignment
+  pod 'Firebase/Core'
+  target 'MAS Peer AssignmentTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MAS Peer AssignmentUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

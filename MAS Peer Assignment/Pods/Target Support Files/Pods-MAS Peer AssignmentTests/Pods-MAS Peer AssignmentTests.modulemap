@@ -1,0 +1,6 @@
+framework module Pods_MAS_Peer_AssignmentTests {
+  umbrella header "Pods-MAS Peer AssignmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

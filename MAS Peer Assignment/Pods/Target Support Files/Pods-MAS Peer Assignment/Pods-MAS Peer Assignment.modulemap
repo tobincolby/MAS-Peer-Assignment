@@ -1,0 +1,6 @@
+framework module Pods_MAS_Peer_Assignment {
+  umbrella header "Pods-MAS Peer Assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
