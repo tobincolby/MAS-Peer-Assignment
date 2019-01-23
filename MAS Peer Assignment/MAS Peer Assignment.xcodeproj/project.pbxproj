@@ -17,6 +17,7 @@
 		EE28B59321F55946001B835D /* MAS_Peer_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B59221F55946001B835D /* MAS_Peer_AssignmentTests.swift */; };
 		EE28B59E21F55946001B835D /* MAS_Peer_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B59D21F55946001B835D /* MAS_Peer_AssignmentUITests.swift */; };
 		EE28B5AC21F55BA3001B835D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE28B5AB21F55BA3001B835D /* GoogleService-Info.plist */; };
+		EE9E802F21F8170F00AF268A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E802E21F8170F00AF268A /* RegisterViewController.swift */; };
 		FF9D9A61C816E80530EE594C /* Pods_MAS_Peer_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33710560A7780C72EC4938C /* Pods_MAS_Peer_Assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		EE28B59D21F55946001B835D /* MAS_Peer_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAS_Peer_AssignmentUITests.swift; sourceTree = "<group>"; };
 		EE28B59F21F55946001B835D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE28B5AB21F55BA3001B835D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE9E802E21F8170F00AF268A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		F33710560A7780C72EC4938C /* Pods_MAS_Peer_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAS_Peer_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 				EE28B58621F55946001B835D /* LaunchScreen.storyboard */,
 				EE28B5AB21F55BA3001B835D /* GoogleService-Info.plist */,
 				EE28B58921F55946001B835D /* Info.plist */,
+				EE9E802E21F8170F00AF268A /* RegisterViewController.swift */,
 			);
 			path = "MAS Peer Assignment";
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9E802F21F8170F00AF268A /* RegisterViewController.swift in Sources */,
 				EE28B58021F55946001B835D /* ViewController.swift in Sources */,
 				EE28B57E21F55946001B835D /* AppDelegate.swift in Sources */,
 			);
