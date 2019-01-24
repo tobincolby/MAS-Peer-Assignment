@@ -226,7 +226,7 @@
                                 </constraints>
                                 <state key="normal" title="Logout"/>
                                 <connections>
-                                    <segue destination="qm9-LA-ixt" kind="presentation" id="EEy-OP-RiP"/>
+                                    <segue destination="qm9-LA-ixt" kind="presentation" id="W5r-4M-Gbj"/>
                                 </connections>
                             </button>
                         </subviews>
