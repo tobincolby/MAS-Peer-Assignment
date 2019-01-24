@@ -23,18 +23,13 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
-
-        // Do any additional setup after loading the view.
-    }
-
-    @IBAction func registerUser(_ sender: Any) {
-    
+        
         let status  = CLLocationManager.authorizationStatus()
         
+        locationMgr.delegate = self
         // 2
         if status == .notDetermined {
             locationMgr.requestWhenInUseAuthorization()
-            return
         }
         
         // 3
@@ -49,8 +44,16 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
         }
         
         // 4
-        locationMgr.delegate = self
-        locationMgr.startUpdatingLocation()
+        if CLLocationManager.locationServicesEnabled() {
+            locationMgr.startUpdatingLocation()
+        }
+
+        // Do any additional setup after loading the view.
+    }
+
+    @IBAction func registerUser(_ sender: Any) {
+    
+        
         let username: String = usernameText.text as! String
         let password: String = passwordText.text as! String
         let confirmPass: String = confirmPassText.text as! String
