@@ -98,6 +98,13 @@
                                     <constraint firstItem="Rc1-Eb-iEX" firstAttribute="trailing" secondItem="Uro-5Q-rYj" secondAttribute="trailing" id="9bH-5P-dZF"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wrong username or password. Please try again." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpe-vp-ri0">
+                                <rect key="frame" x="174" y="103" width="132" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="0.017909488300000002" blue="0.065714445100000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="1" green="0.017909488296329656" blue="0.065714445100730878" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -114,6 +121,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="errorLabel" destination="Lpe-vp-ri0" id="y8d-XU-Jip"/>
                         <outlet property="passwordText" destination="Rc1-Eb-iEX" id="2lS-vp-Diy"/>
                         <outlet property="usernameText" destination="Uro-5Q-rYj" id="hZu-Yo-zZ3"/>
                         <segue destination="m56-C4-ycg" kind="presentation" identifier="loginUser" id="8l7-6K-JdT"/>
@@ -237,6 +245,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EEy-OP-RiP"/>
+        <segue reference="qLB-Hm-ebs"/>
     </inferredMetricsTieBreakers>
 </document>
