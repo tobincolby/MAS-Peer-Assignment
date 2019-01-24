@@ -25,9 +25,9 @@ class RegisterViewController: UIViewController {
 
     @IBAction func registerUser(_ sender: Any) {
     
-        let username: String = usernameText.text as String!
-        let password: String = passwordText.text as String!
-        let confirmPass: String = confirmPassText.text as String!
+        let username: String = usernameText.text as! String
+        let password: String = passwordText.text as! String
+        let confirmPass: String = confirmPassText.text as! String
         
         print(username)
         print(password)
