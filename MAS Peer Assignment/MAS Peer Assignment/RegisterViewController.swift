@@ -8,45 +8,21 @@
 
 import UIKit
 import FirebaseDatabase
-import CoreLocation
+import FirebaseAuth
 
-class RegisterViewController: UIViewController, CLLocationManagerDelegate {
+class RegisterViewController: UIViewController {
     
-    let locationMgr = CLLocationManager()
     var ref: DatabaseReference!
     @IBOutlet weak var usernameText: UITextField!
     @IBOutlet weak var passwordText: UITextField!
     @IBOutlet weak var confirmPassText: UITextField!
-    var location: CLLocation?
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
         
-        let status  = CLLocationManager.authorizationStatus()
         
-        locationMgr.delegate = self
-        // 2
-        if status == .notDetermined {
-            locationMgr.requestWhenInUseAuthorization()
-        }
-        
-        // 3
-        if status == .denied || status == .restricted {
-            let alert = UIAlertController(title: "Location Services Disabled", message: "Please enable Location Services in Settings", preferredStyle: .alert)
-            
-            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alert.addAction(okAction)
-            
-            present(alert, animated: true, completion: nil)
-            return
-        }
-        
-        // 4
-        if CLLocationManager.locationServicesEnabled() {
-            locationMgr.startUpdatingLocation()
-        }
 
         // Do any additional setup after loading the view.
     }
@@ -58,11 +34,37 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
         let password: String = passwordText.text as! String
         let confirmPass: String = confirmPassText.text as! String
         
-        let latitude = location!.coordinate.latitude
-        let longitude = location!.coordinate.longitude
         
+        if password != confirmPass {
+            let alert = UIAlertController(title: "Error", message: "Passwords Must Match", preferredStyle: UIAlertControllerStyle.alert)
+            let action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.cancel, handler: nil)
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
+            return
+        }
         
-        
+        Auth.auth().createUser(withEmail: username, password: password) { (authResult, error) in
+            // ...
+            print(authResult)
+            print(error)
+            if error != nil {
+                let alert = UIAlertController(title: "Error", message: "Error Registering", preferredStyle: UIAlertControllerStyle.alert)
+                let action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.cancel, handler: nil)
+                alert.addAction(action)
+                self.present(alert, animated: true, completion: nil)
+                return
+            }
+            
+            guard let user = authResult else { return }
+            let alert = UIAlertController(title: "Success", message: "Registered", preferredStyle: UIAlertControllerStyle.alert)
+            let action = UIAlertAction(title: "Dismiss", style: UIAlertActionStyle.cancel, handler: nil)
+            alert.addAction(action)
+            self.present(alert, animated: true, completion: nil)
+
+            self.performSegue(withIdentifier: "goHome", sender: nil)
+            
+            
+        }
         
         print(username)
         print(password)
@@ -72,17 +74,6 @@ class RegisterViewController: UIViewController, CLLocationManagerDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let currentLocation = locations.last!
-        location = currentLocation
-        print("Current location: \(currentLocation)")
-    }
-    
-    // 2
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("Error \(error)")
     }
     
 
