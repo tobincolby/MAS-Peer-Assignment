@@ -192,7 +192,7 @@
                                         </constraints>
                                         <state key="normal" title="Back"/>
                                         <connections>
-                                            <segue destination="qm9-LA-ixt" kind="presentation" id="0wf-Kq-Nn1"/>
+                                            <segue destination="qm9-LA-ixt" kind="presentation" identifier="goHome" id="0wf-Kq-Nn1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -241,7 +241,7 @@
                                 </constraints>
                                 <state key="normal" title="Logout"/>
                                 <connections>
-                                    <segue destination="qm9-LA-ixt" kind="presentation" id="EEy-OP-RiP"/>
+                                    <segue destination="qm9-LA-ixt" kind="presentation" id="W5r-4M-Gbj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -261,6 +261,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EEy-OP-RiP"/>
+        <segue reference="0wf-Kq-Nn1"/>
     </inferredMetricsTieBreakers>
 </document>
