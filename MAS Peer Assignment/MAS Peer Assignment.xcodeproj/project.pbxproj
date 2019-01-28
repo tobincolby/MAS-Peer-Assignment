@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		24338C95D6FFE975F1581389 /* Pods_MAS_Peer_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A22E6FC1FC6F22A984EB357D /* Pods_MAS_Peer_AssignmentTests.framework */; };
 		64890B41325FC571A8C9207D /* Pods_MAS_Peer_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E3B1573030F3F935C510DC /* Pods_MAS_Peer_AssignmentUITests.framework */; };
+		95B19B9021FF8B8B002ED037 /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B19B8F21FF8B8B002ED037 /* VideoPlayerController.swift */; };
 		EE28B57E21F55946001B835D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B57D21F55946001B835D /* AppDelegate.swift */; };
 		EE28B58021F55946001B835D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28B57F21F55946001B835D /* ViewController.swift */; };
 		EE28B58321F55946001B835D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE28B58121F55946001B835D /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		06DB56FAB280D3542F4AA066 /* Pods-MAS Peer AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Peer AssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Peer AssignmentTests/Pods-MAS Peer AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
 		2CB9542644E9D5335CB55E80 /* Pods-MAS Peer Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Peer Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Peer Assignment/Pods-MAS Peer Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		50FD657844C09D9C19054780 /* Pods-MAS Peer AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Peer AssignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Peer AssignmentUITests/Pods-MAS Peer AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95B19B8F21FF8B8B002ED037 /* VideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
 		A22E6FC1FC6F22A984EB357D /* Pods_MAS_Peer_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAS_Peer_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF721420A25AA7FF30605524 /* Pods-MAS Peer AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Peer AssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Peer AssignmentUITests/Pods-MAS Peer AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CDFE9D3A94063395A445DFB7 /* Pods-MAS Peer AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MAS Peer AssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MAS Peer AssignmentTests/Pods-MAS Peer AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				EE28B5AB21F55BA3001B835D /* GoogleService-Info.plist */,
 				EE28B58921F55946001B835D /* Info.plist */,
 				EE9E802E21F8170F00AF268A /* RegisterViewController.swift */,
+				95B19B8F21FF8B8B002ED037 /* VideoPlayerController.swift */,
 			);
 			path = "MAS Peer Assignment";
 			sourceTree = "<group>";
@@ -350,12 +353,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MAS Peer Assignment/Pods-MAS Peer Assignment-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/YoutubeKit/YoutubeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -391,6 +396,7 @@
 			files = (
 				EE9E802F21F8170F00AF268A /* RegisterViewController.swift in Sources */,
 				EE28B58021F55946001B835D /* ViewController.swift in Sources */,
+				95B19B9021FF8B8B002ED037 /* VideoPlayerController.swift in Sources */,
 				EE28B57E21F55946001B835D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,6 +569,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89ZM4KZLJH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleAPIClientForREST\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
 				INFOPLIST_FILE = "MAS Peer Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.MAS-Peer-Assignment";
@@ -578,6 +604,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 89ZM4KZLJH;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleAPIClientForREST\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleToolboxForMac\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseDatabase/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleNetworkingUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSymbolUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleUtilities/Frameworks/frameworks\"",
+					"\"${PODS_ROOT}/GoogleSignIn/Frameworks\"",
+				);
 				INFOPLIST_FILE = "MAS Peer Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mas.MAS-Peer-Assignment";

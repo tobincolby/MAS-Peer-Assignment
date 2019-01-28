@@ -7,90 +7,168 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020AD5811C833728BAD7034D456D5DB2 /* CommentTextFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC089B7B3B292117958DFA38F6200044 /* CommentTextFormat.swift */; };
+		039831AEDB9C2FDFC907639CD200378A /* CommentThreadsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAEF41377E7C18E9C7295B6CEF17022 /* CommentThreadsListRequest.swift */; };
 		04CDFC8A76DA4E5907613BE0EA507D52 /* Pods-MAS Peer AssignmentTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A67D36FA8AFAF2F0B8DB17EF1912348 /* Pods-MAS Peer AssignmentTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		095597BECA450831F810BC8E93188500 /* Pods-MAS Peer AssignmentTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4137F16CA4E72759FEB51EFD5796684 /* Pods-MAS Peer AssignmentTests-dummy.m */; };
-		0A4C5C81804C50CBDF57EF842DE97ED0 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC8E20A4864B48522B0FF1E8E77B935 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4C5C81804C50CBDF57EF842DE97ED0 /* nanopb-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66ECC5AB90FE882AA5711CB5140DF547 /* nanopb-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D611A6D1BA11199662FCA250FFF8CF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		0E3C842AE9FF789EFAA2DBDFC3D0CFF4 /* table_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF08BDDA2BB90732555D58F0F34BE2F /* table_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14D0680159E25514AB82EC4A9EA8EAE1 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = EC415A0C24191E2A099F3A58D4C04B9F /* comparator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		15DF90CC60B49FB6C0830CF652624A25 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = F59E63EA2A8E7A85CB40B4351F7305B5 /* bloom.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		1CE3C103658414B852F866D23D811CAB /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = A42FE2E8F523FB734A8CD6EDD4D26F9E /* write_batch.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		1D35B8204332EEAA05453A07F8C8D10D /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A999BE7BC421CF3A513648312DA56B /* cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23F62E555F8A0060648C8FD4F5B91C6C /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 257B14B0E0B56F3FB0E3C5D09963EF2D /* merger.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		244EB74CEB227DB9EF9BE3668C8DB75A /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1449D53268400A9D241B152C1B512 /* log_writer.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		251D72FADDBFED25ADD98D31EBA619F6 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = F058A0933A79C99889A02FFC0CFC17FE /* logging.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		2670D269EA80CEE4B8D0B03C4C43AE19 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E0D9B6D63B5659240C868559458B4B /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E658DDA4DB450FBDE1782B325B91017 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8B078B6F5625CB35B5A503DE55695 /* testharness.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		334576754AB52A4BDE8DD62ADE0AC37F /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D66A82950FFDA0BD1EAC217826075F35 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3C842AE9FF789EFAA2DBDFC3D0CFF4 /* table_builder.h in Headers */ = {isa = PBXBuildFile; fileRef = B588DCB40C7C862721EF50D9143B48FE /* table_builder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F6E4A75C7C2557F9DD09FFB8CE3F685 /* GuideCategoriesListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557111C02F1AEA094F35ADF61043F14 /* GuideCategoriesListRequest.swift */; };
+		1494165CF9AA1F03CDC3D0C10BF51E12 /* PlaylistsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE08A7B067CDE33C9E99A7B1E651D32 /* PlaylistsList.swift */; };
+		14D0680159E25514AB82EC4A9EA8EAE1 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E1724826D32321D17884A7201FC0722 /* comparator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		15DF90CC60B49FB6C0830CF652624A25 /* bloom.cc in Sources */ = {isa = PBXBuildFile; fileRef = E595BBABEC82A32F29434DCF06A1CB3E /* bloom.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		166AC77E378C5C895EA072A17DC738AA /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D458485702E14CE5AB854A8B02887F /* Filter.swift */; };
+		19D7BFBF3770A940305A413F17D7885B /* SearchVideoLicense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B85C14781F8050412206667ADB61E5 /* SearchVideoLicense.swift */; };
+		1C00B3814FE998D3D7964501A271DD3C /* PlaylistItemsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA2FFEC378A48E4952F77324F8DE78 /* PlaylistItemsListRequest.swift */; };
+		1CE3C103658414B852F866D23D811CAB /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = D7B6A953EA154951C95C4C0E568DE867 /* write_batch.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		1D35B8204332EEAA05453A07F8C8D10D /* cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C43EC7D7FF8187C6064D95F9AB1D41B /* cache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6E7BFDAF7DD9CD4C20F8A34C88B1D2 /* QueryParameterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEF7C8DE6562850EF2BD33EA4F71B7F /* QueryParameterable.swift */; };
+		23F62E555F8A0060648C8FD4F5B91C6C /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3DB79FBB7F7BDE0266FB0551F83F0A7D /* merger.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		244EB74CEB227DB9EF9BE3668C8DB75A /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = E47E8DE9A744ED442769C1E5610D3F5B /* log_writer.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		251D72FADDBFED25ADD98D31EBA619F6 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = FDCB7B2DD937608A77895698B64D298F /* logging.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		2670D269EA80CEE4B8D0B03C4C43AE19 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0319F119F529846584A9FA73578C6950 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC50A020E30D2D9AF3657206BDEEF24 /* VideoCategoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7119BF72C9C1EA22D8E788F77F22346C /* VideoCategoriesList.swift */; };
+		2DFB0C3039FB199CDE08E1B4DB450DB7 /* CommentThreadsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60061160F772031284C5132C14EDE0E /* CommentThreadsList.swift */; };
+		2E658DDA4DB450FBDE1782B325B91017 /* testharness.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7CEBB757A77D211DA2C5D2629C9CE936 /* testharness.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		300185A2DFDDBACC20A9CDF52476DDDB /* YTSwiftyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE4D48B1812093A17A1A1790D0381B4 /* YTSwiftyConstants.swift */; };
+		334576754AB52A4BDE8DD62ADE0AC37F /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA7E039A77EEE9981DA545A32E80957 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		341C87ACF7BA15463AE6AC7787B7A7EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		3552218D2E421ECA1909B93DE2FB959A /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 13D260E2A50C85CBA8F5CAC45267EBF2 /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
-		35DC56AFDF6FB05BCE65E6B2D06EE7EB /* dumpfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B53B1C3C66944A148F634B0744F13A /* dumpfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35EECC07EA0AF2ADE8A730360DE8F464 /* db.h in Headers */ = {isa = PBXBuildFile; fileRef = 86C9809F57BB3004FE0F6DADF3828238 /* db.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3CDF8AED27DE59EBB93DF5F428840A16 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A62E8843AAA00EFA5505DFEDE14BFB2 /* dbformat.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		427799CB422851F585C02C74820C0463 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BEE5D8C1AD65B109058EF91AD1B1DD6 /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F644862D2F3FA7ACAC9AC409E11C83 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = FF4F80240C680D03F66AC1AC8AFAFF99 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B2D91845B8C48DE40FCFAEB76E50751 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 53C6FCD7F060E5AC21FA1AFC693BA346 /* builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		4B963D1C1A896416763E5FB100EF90B8 /* leveldb-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AFA624F437556893F6B70D09DD4606 /* leveldb-library-dummy.m */; };
-		4CA238D1D0E2D69B4BBF168421AEAA1D /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6D282A48BAA083EB0E45B8379E112BFB /* db_impl.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		4D7709D86F5F579E27C6521C703E9086 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = A22F5F80D5224B277933E17F99517597 /* crc32c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		4DF6E6655D874BBDC789B3E308E74666 /* c.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D585FCCEBD1AEDC0F96C625E459320 /* c.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F9F05E1A865E4A70E431DDFC135958E /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 86C5E028D099D2C4E460DF1128E28DB4 /* arena.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		506EE81A2261B9F78E8B141DF71B97DD /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0DA4D47FC8145EED1E50A74EF0BBBCC0 /* block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		52B8FDC9A97B3073956FB3546305EF51 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = B7498FDC52163AE9FAA517386575E2C2 /* log_reader.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		567929BB4D975B7BEA32D528FC555447 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = B13770FC14037B4B77C929E6C01CCCD0 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56E5E26F20F152CD813380892362F900 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A060CF92D4BC004F23637C204A63B /* filter_policy.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		35016CB4850B3EC2E454DB18F764954B /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0E0124599963F18C80B029473CB5B1 /* Thumbnail.swift */; };
+		351519F6866EC0C6922F430B1C00FF7C /* MyRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7BAB91C5BAB490B3E95AAB9C40952B /* MyRating.swift */; };
+		3552218D2E421ECA1909B93DE2FB959A /* pb_common.c in Sources */ = {isa = PBXBuildFile; fileRef = E20889E2F0A6E8B590FC7BA7308F112B /* pb_common.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc -fno-objc-arc"; }; };
+		35DC56AFDF6FB05BCE65E6B2D06EE7EB /* dumpfile.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1B795FA3FFFB316B1B32FBEAD246BB /* dumpfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35EECC07EA0AF2ADE8A730360DE8F464 /* db.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FE65BB59B592177B807445B7B419FD /* db.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38D52FE56F487F141B6D901CEB1DA304 /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E895A6BA8F089DA30F5F3C01651E8 /* ResponseError.swift */; };
+		3ABB7A4DAEED7FE123ADB2A3AE007800 /* player.html in Sources */ = {isa = PBXBuildFile; fileRef = EF7C570ECEA7F988FA3E9B6F58F06102 /* player.html */; };
+		3CDF8AED27DE59EBB93DF5F428840A16 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5E35F57EEE4C94005B9FE73E2A2FABF9 /* dbformat.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		415FA1CC31DC2F2FFF5D4A748FBD70DF /* SearchListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78F63856BB369A8B43B8E775B502D54 /* SearchListRequest.swift */; };
+		427799CB422851F585C02C74820C0463 /* pb_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD431E000CF2CAB5BD147B6CD2A6E7A /* pb_common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		439F04C543279CB81F54E79102E74D05 /* player.html in Resources */ = {isa = PBXBuildFile; fileRef = EF7C570ECEA7F988FA3E9B6F58F06102 /* player.html */; };
+		43CDEEC9FD1F4AEA553E34262B548C96 /* SearchVideoDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849015372B7715F317B0CEECE0A84847 /* SearchVideoDimension.swift */; };
+		43F4C573C4EA79B8783C8867BFF713AB /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E2AA041F61D2AEDF931F43FA23C662 /* RequestError.swift */; };
+		47F644862D2F3FA7ACAC9AC409E11C83 /* pb.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2DB6ABDFA1008CFB27E28037940E90 /* pb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F718922CFC6139B1053B4851CDBBE4 /* VideoListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2683326C148765243E7D74962A23C9A /* VideoListRequest.swift */; };
+		4B2D91845B8C48DE40FCFAEB76E50751 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0835F7260797C5A8FB39C0FFD88635BE /* builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		4B963D1C1A896416763E5FB100EF90B8 /* leveldb-library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 877CD1605A7475108FF2235356E09DCB /* leveldb-library-dummy.m */; };
+		4CA238D1D0E2D69B4BBF168421AEAA1D /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 708105B4573F764D4C20E9409DEEF8C9 /* db_impl.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		4D7709D86F5F579E27C6521C703E9086 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6CB50AB1544E95AF1C0FB6CE428CD581 /* crc32c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		4DA14B422AD7D38ADEB41D0B968B6BCB /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944CB1F281F961D7C722001381FEB53 /* Requestable.swift */; };
+		4DF6E6655D874BBDC789B3E308E74666 /* c.h in Headers */ = {isa = PBXBuildFile; fileRef = 8727E3C8E789A3D0FB76C9FEC6745877 /* c.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E399D07CFCCF9B88D4F8A16E9681065 /* SearchEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A887F030F36927FF9934A6ADF2A5D0 /* SearchEventType.swift */; };
+		4F9F05E1A865E4A70E431DDFC135958E /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = FF3C249A45138FF49D96C9FB5899A32B /* arena.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		506EE81A2261B9F78E8B141DF71B97DD /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = C8276F571AE233C16B5831DBD79EFBC9 /* block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		52B8FDC9A97B3073956FB3546305EF51 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 207A5CEF779DC83BB765D71C5AA04FB9 /* log_reader.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		52E7F432FD368F6E3ED85AF4F4C77833 /* YTSwiftyPlayerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC20AD2A61431E200F45EBE1C8292E93 /* YTSwiftyPlayerDelegate.swift */; };
+		53DA38C0433C931D5B210254685FB55A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		567929BB4D975B7BEA32D528FC555447 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC5956DF594C4993EF6FA89E3B70369 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E5E26F20F152CD813380892362F900 /* filter_policy.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1E07236A5B835500DA90082A11602515 /* filter_policy.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		56F839675E13EF045914DB786E4A5EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5807FB53B22BC7BF25C43C02A62BFD35 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = BED963E0565C8709D280E13C0A9D1F33 /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59F7DEBB712EB367F35BFC3C2D7C90FF /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9AE9B829897D6070866769CA2D9F6B0B /* block_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		5EFD44FFEFDE4D89A5592DD143F75CE8 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = 070C947052E5996F921B4140C53DDA02 /* format.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		5F629516DAD8AEA5D15C73BCBAE3F27A /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = F8A6747C80090B5FE0B14DC435359541 /* status.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		6054AEFEC1CD68C4AEF5E2D0691591E4 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4A96BCF7CDF6C694470D6812D4F34C /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5807FB53B22BC7BF25C43C02A62BFD35 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = D4602403C94DFB26B1F9DC408385A5C8 /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		581BA8A16425AD8EA5C3CF63B47F7F75 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C178A59692A995C41E049219869E7 /* BoolExtensions.swift */; };
+		59F7DEBB712EB367F35BFC3C2D7C90FF /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 84020A6DCAF3F2CF9EDDD6DC773032A2 /* block_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		5B1119BCC7078C32917A4928480792E3 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59363AA7E641D68E951CEC93280A61BF /* Statistics.swift */; };
+		5EFD44FFEFDE4D89A5592DD143F75CE8 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40BE3E7F8DD03B0EFB0C9BBFA9D40F11 /* format.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		5F629516DAD8AEA5D15C73BCBAE3F27A /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C911FEA8285412750B27F14A7B2EA /* status.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		6054AEFEC1CD68C4AEF5E2D0691591E4 /* status.h in Headers */ = {isa = PBXBuildFile; fileRef = A985033C1432DDE69CF528C7EA0DAC89 /* status.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61B0822F893313577D3BBC2CA5246EA9 /* Pods-MAS Peer AssignmentUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2EEAF810782DAF73D31DF7E518B415 /* Pods-MAS Peer AssignmentUITests-dummy.m */; };
-		62BEBA6BA4E24A0B8D611787C6B1D4CC /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = EFA7C5740115250AE102A3C430F1A3D1 /* filter_block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		62BEBA6BA4E24A0B8D611787C6B1D4CC /* filter_block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1AB41E966379F46BBC4A7734401B34A9 /* filter_block.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
 		63303C7905806ABE60DFB5A7FF0A1DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		691530AF39C205EE06CA340D5899D8F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		6FD36A9E485DE71CF5A0DA5085822F82 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = A88B996BE68151B0109B6400E80C3A07 /* env_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		7381B24EC0FCE227AA7122F4560AF426 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 817FF2F1E4C0C1783A22A161A70AF7F5 /* hash.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		7439F76231E7B154C0642599A8ED7564 /* filter_policy.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEF38C7D83724BC0347204BEE56F5D0 /* filter_policy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75D500075E52DD916B795E3EED68795E /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 505F9262290D0989881A5105E0BEA1C1 /* table_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		76FBF9BA6D7B7785DE50D55606564DC0 /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 30D2CAE1C5C2910A169F65D70C02345E /* table.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		7D1EF84E28F923FFAABB269D68F6C9E9 /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5A96A2EE7FC9D473AB5120560F1DF04B /* cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		8420CBF11D9C761769092C64A58D53EB /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 20F2FAB0D443B4524B7B30D0A8B61924 /* histogram.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		8CEDB8AEF9A3CFA4F1B44ABDFB65901A /* Pods-MAS Peer Assignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E4CDFFD371A64391718E1AAED667DB /* Pods-MAS Peer Assignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64033FD96207B66AF0D9F4543BA9C2A6 /* ChannelSectionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB7C9906F56AE7ADAC5D958549FE538 /* ChannelSectionsList.swift */; };
+		670040CB2884684B3FD41F3384F6D8BF /* VideoCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164A95D7982F37CAF3D5E5A689EDFD8 /* VideoCategory.swift */; };
+		6854571DD322ADE3E0015F5726765D99 /* Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC124D5233561979B15CFAD022751B /* Localized.swift */; };
+		696F88AF243B57B4EA6014F2777150B5 /* ActivityList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F243A8E9FDB69E3A512F9AC2845251 /* ActivityList.swift */; };
+		6D7F14B319D269C51616F47A7EA554FA /* I18nRegionsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDA0D06716B96799C1AB7A61B86FD49 /* I18nRegionsListRequest.swift */; };
+		6E860C0B3B848BFE435C0690FC3DB06A /* SearchVideoDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8167DDDB8F372A33F0ABDE9BB28D80 /* SearchVideoDuration.swift */; };
+		6FD36A9E485DE71CF5A0DA5085822F82 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = FF136FC6527CBAEFE85993DC16B69460 /* env_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		7381B24EC0FCE227AA7122F4560AF426 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 7F4FF9E432024753765CBC7ED9571448 /* hash.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		7439F76231E7B154C0642599A8ED7564 /* filter_policy.h in Headers */ = {isa = PBXBuildFile; fileRef = 65A5FE12655CDAB7694E80E43C65005E /* filter_policy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74AA2034AE4919A268B19118109A6D03 /* I18nRegionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23B851A9C2C12D5BC945AD328CDD2B9 /* I18nRegionsList.swift */; };
+		75D500075E52DD916B795E3EED68795E /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 9A528EC3E7E029F685E39D4C796AE643 /* table_builder.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		76FBF9BA6D7B7785DE50D55606564DC0 /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = AB5A393BD6E3B2E579DD51C1566B4C5F /* table.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		799F210DC4DA5C8189C63752EF3BD070 /* ActivityInsertRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48D66C72DC4A2B75A766C6670ABF5D /* ActivityInsertRequest.swift */; };
+		7D1EF84E28F923FFAABB269D68F6C9E9 /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = EA8B31008782B182D46CACFBDCEDE2D8 /* cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		7E292CF9D497D71BC4B3A394935AEEA8 /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B42AF079132C6C2B6C45E8553A86284 /* PageInfo.swift */; };
+		7F9CAD81100B49AE4F57EBA8A634B65D /* SearchVideoEmbeddable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C583879EC2728CA82F44564C93F59FF /* SearchVideoEmbeddable.swift */; };
+		82C01BE33C028D29F1F015089A0EABBC /* ChannelListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE6A13E3EB2C80A4E8A2AA37CD6E7E3 /* ChannelListRequest.swift */; };
+		82FDF64FA252DEA714A0955E2D9607F5 /* ContentDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59BD40A8B9A87169A964877780912D6 /* ContentDetails.swift */; };
+		84039746F1751F8729E9C88481647FCE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4A6A2ABC2CCAD7ED57B25DFA882923 /* HTTPMethod.swift */; };
+		8420CBF11D9C761769092C64A58D53EB /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69571A520B9FD1F93FE7121EA2EBB7B8 /* histogram.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		857EABB9CE7DFABC299C3F7C0595EF87 /* CommentListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680109A36FD7C5234C509EE2841661B0 /* CommentListRequest.swift */; };
+		862953C63008AE9D6AE1D305BC674CF2 /* VideoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72966EA49FA74344985B807579523441 /* VideoList.swift */; };
+		8DCDEEB66B462FDDD9F0521238FF02E6 /* CommentList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72EDCC5A5A4BDBF30A25626A00CA46 /* CommentList.swift */; };
+		92BF6E5F891B3B50C4A7DE4BCD043F2A /* ChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55843289C6CC10CFA6CBF051F8E270F9 /* ChannelList.swift */; };
 		93B5F92E0F330BBD7162CBCCAFD4AD21 /* Pods-MAS Peer AssignmentUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F1A91727D8085E4289FE4795A6A9EC /* Pods-MAS Peer AssignmentUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		946378EF31DD32D0887D67660462BD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		955A80D875B83E7A625ACC6CE875D907 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = C60D10EE95E3FFB1DE3BC7842C62B2D5 /* version_edit.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		9A980FA20459FDEFD31ED12AD3E174CC /* env.h in Headers */ = {isa = PBXBuildFile; fileRef = F8F7715AD5CDA7E971DCDDF76B9A09ED /* env.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A06072FCE57057480BC8AF6430332D00 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 81D12FA9BC3EAF4BDA9CFFD6B21E8B36 /* filename.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		A1FBF3E7D45AE714ED8607AF37031ADD /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = E0AC9B419FFDFA0D7AF3CF590C0E37E3 /* repair.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		A26D3FA848C301A2D226891548BC262F /* Pods-MAS Peer Assignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413760DE0C6CB778FD7BD673567F001 /* Pods-MAS Peer Assignment-dummy.m */; };
-		A277D82256C9215A9803D7239CF92016 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 64B65A0A11D5B20AFDB67678E7A0DA18 /* coding.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		A4D7CA8DA24D2BA523DC1C4DAB59373E /* slice.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8F5B3948CECA32EE4F1246BE3AC05F /* slice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A54E2B8FC6E5507EE559DAF21C976492 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 57759D7BC2D3D8A7F21654723865BC9E /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAA6A3680C85C31B477E4C906DE9815A /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1387EE66D4ACD3FBBD68D7DC5A48886E /* nanopb-dummy.m */; };
-		ABECEB7E32EECF0C3C9C416B6E5DF97F /* leveldb_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23935593F852070F71D95ADF4E555C6D /* leveldb_main.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		AD82A91FD7FC4EEF8425D099B4E45AB6 /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0A962D2A394416E45F7AB9C9B9E32945 /* version_set.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		B7047CB5F6057CC60ADA07C16EE447F0 /* write_batch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB361C468E12256274DFBEC4867CBA5 /* write_batch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF45D65E72226C096F6269B1F1989040 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 7073A4C7BA66748DCAFAFCEE2860A354 /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C46B7BDE25252D8EB990DEB9FE7CD98A /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = CDB388D3CED2B0A40C19BE36EE0B28FB /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		C5060C6B48936E01B6E768FC51D5D764 /* dumpfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = B7E11FFB3FD006A84A0781F6A8399D9A /* dumpfile.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		C6AAA96E9F95646F5B19AA8CA8C82D96 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E6C188D533E3407E58227D5A46DD6D /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6FE3BC060882F0ABA658C83887F5E74 /* leveldb-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EE35D0AD04FDA1242A88F82F193178 /* leveldb-library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD97CA980E0D9175114DECC44C5E30F1 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5410CB5B7210527459657AB38912233A /* memtable.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		D142FE4DCA58CD1A20CC78E72D141C67 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = E4895BC543F2F0C77B8879D3D3A3D075 /* table_cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		D143A48E638AFDBD788EBFDC833E04BC /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC16B8EA3CBDAD2788DA886361586C7 /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6703FB1D93BA3BB8F891584F37A4152 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1C2273205A9B770B08BA2BA464D3A417 /* two_level_iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		D69336DACA5C28AE367F73481AAC863D /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = 16346927C265BB36BA2984BCADDC3FE4 /* options.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		E1331724A7D92526AA8714A62C353932 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = A1784C245B0D4950E045C927A6792CB4 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
-		E157B721D0E04891BFB7F274916674D3 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = DE94F96E457EFCA3CACAE2270664198C /* c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		E2310A1D806230594BA6AA0C5CA0DFD0 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = C819BF440E7F74FED678453F0DCCF63F /* testutil.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		E44FFFFD197BB0B4F1D621484539C276 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = D16731B38BE3530C8B0B9B1C4503DF52 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E4F1923E63A82C1590520DB26D8E217B /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8BC2E4977880933D8F633453D129B2DD /* port_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		EDCC7F49CF9F4579CCE9501962CC219E /* comparator.h in Headers */ = {isa = PBXBuildFile; fileRef = F7BE77523C75403D6C694BA0C31C7BAC /* comparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEB08B052E02B0499C2F16911C8B9C8B /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA73AE1AD1E741D2DFF43908722397F /* GoogleToolboxForMac-dummy.m */; };
-		F1AD75905F653512FA5B65D80D03B32E /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 27431FBFB0B3861FB8B7DF021F2AA1C2 /* iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		F1F1A3E319933F7B92356D631EC63505 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 94E109447057E66F9B85E5AEF018AE4F /* db_iter.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
-		F3F0666E95F322A8D888E43BD02C39D9 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = 8633C5C2742DC285735A21CF52A97FB4 /* env.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		955A80D875B83E7A625ACC6CE875D907 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = F580DD98F0FBFC319DE89AD744677FB5 /* version_edit.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		9611CE34A9B088A1F70130D06AE57D78 /* YoutubeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A21AFE0791C65E35663060F83A26DE /* YoutubeKit-dummy.m */; };
+		968C18C5FF6324E0C381C9D838115222 /* SearchVideoSyndicated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FBF34A58F5A786E635C4856133C624 /* SearchVideoSyndicated.swift */; };
+		9844CB080FE999FB8D076C9F62BE2D38 /* VideoAbuseReportReasonsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672E042C92A6F67A866DF941ADF0790 /* VideoAbuseReportReasonsListRequest.swift */; };
+		98B60A84F37B5D987B8E043A68199B2A /* SearchResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7663F3F677563B5046261814DB7C0F /* SearchResourceType.swift */; };
+		9A980FA20459FDEFD31ED12AD3E174CC /* env.h in Headers */ = {isa = PBXBuildFile; fileRef = 77334D6E50C5F2901908E7C5CF9F265A /* env.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4CE97236E12565FC6F1D4003F2A216 /* YoutubeDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007588143BAB15401539F1D173020CDE /* YoutubeDataAPI.swift */; };
+		9D9B370B5E23CECD8242D908675E3D9D /* Snippet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09239D39DD4A13325B03DB4430129E03 /* Snippet.swift */; };
+		9E208DB5DB364376411421A9B03D06D1 /* ActivityListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5914A551B1E5E6B5C392F5F623C05B9B /* ActivityListRequest.swift */; };
+		A06072FCE57057480BC8AF6430332D00 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3A757418B01E6160DD04E9EB016A2F6F /* filename.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		A1FBF3E7D45AE714ED8607AF37031ADD /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = BECD5A8B3556D4A49F9B8C3634E19312 /* repair.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		A277D82256C9215A9803D7239CF92016 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = A0330F88958BD2D3767B5F99E19DB5DA /* coding.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		A481B66B3C3663AB6CD048D6F898BC00 /* I18nLanguagesListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFC449D533B32D3586E6AB7284B578B /* I18nLanguagesListRequest.swift */; };
+		A4D7CA8DA24D2BA523DC1C4DAB59373E /* slice.h in Headers */ = {isa = PBXBuildFile; fileRef = A721197A6F209A6FA677B923559F6129 /* slice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54E2B8FC6E5507EE559DAF21C976492 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3C78D5A9B4FA17BA41424449DC57CD /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5CDB624A36C11E93DF14D62F76D82E0 /* YoutubeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C426640399F1A080D8A14D370B1BE646 /* YoutubeKit.swift */; };
+		A6B8A41912F35FD88CB6FD6B0B6CEF7B /* SubscriptionsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3C02D4C2FBEA09298C7E158F79DEB /* SubscriptionsListRequest.swift */; };
+		A95D9CAE27CFFEB5DF259F946CD0499C /* Pods-MAS Peer Assignment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6413760DE0C6CB778FD7BD673567F001 /* Pods-MAS Peer Assignment-dummy.m */; };
+		AAA6A3680C85C31B477E4C906DE9815A /* nanopb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F882C2F76E5FC99FD127A21262B50D00 /* nanopb-dummy.m */; };
+		ABECEB7E32EECF0C3C9C416B6E5DF97F /* leveldb_main.cc in Sources */ = {isa = PBXBuildFile; fileRef = CF443B8C489F5B0F1B4E2B1848511FF6 /* leveldb_main.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		AD82A91FD7FC4EEF8425D099B4E45AB6 /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 811BCEB728B7016F350319BA00813089 /* version_set.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		B1766FF1778FB5547C3DB9483C089AE3 /* CommentModerationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20C3D030AABB307651A943FFC265B7E /* CommentModerationStatus.swift */; };
+		B2878D64380DD3DBEBA252407FB9FF20 /* VideoCategoryListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772AF3BD59322D3C8346BE4F87887F86 /* VideoCategoryListRequest.swift */; };
+		B7047CB5F6057CC60ADA07C16EE447F0 /* write_batch.h in Headers */ = {isa = PBXBuildFile; fileRef = AE32013B150E236AC7F06928847C146F /* write_batch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAFA833155C44CD794BA3D9E02F1304C /* Pods-MAS Peer Assignment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E4CDFFD371A64391718E1AAED667DB /* Pods-MAS Peer Assignment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF45D65E72226C096F6269B1F1989040 /* options.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5269148A37A5FBAE4F362EB5224D71 /* options.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF682981952510B5112907D8B9CFC363 /* ApiSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE0244E458CA599FB8B8CBEFC4F8B9 /* ApiSession.swift */; };
+		C151506D28D76CC414C125710F8B54DC /* YTSwiftyPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF18E327F8D9F357C23F32BA2ECC941 /* YTSwiftyPlayer.swift */; };
+		C2E24536738F189753B28CF0B6719CAE /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B62F35F44DFE8A2D88DD2C2900F661 /* Result.swift */; };
+		C3A97099D4408331E2E955C3FC692DBD /* ResourceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36626BF6085E3DB79B6E2F47793711B6 /* ResourceID.swift */; };
+		C46B7BDE25252D8EB990DEB9FE7CD98A /* pb_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 70AC6BA41D6E5CDFE4EC6B8C84430FAB /* pb_encode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		C5060C6B48936E01B6E768FC51D5D764 /* dumpfile.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4C7AED07D7E68CE4DE0928879ECAF9AB /* dumpfile.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		C6AAA96E9F95646F5B19AA8CA8C82D96 /* pb_encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 440D5FAA7F805C74DD133394B37E8AAA /* pb_encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6BB6A2D2B75382A04E1280B75D6E473 /* SearchSafeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCAC0FEF1ABD0E4FC21503667C26B95 /* SearchSafeMode.swift */; };
+		C6FE3BC060882F0ABA658C83887F5E74 /* leveldb-library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9447820BCF08D58E728490926C4BA464 /* leveldb-library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C750661638905399BB15DDE184AEB2A6 /* SubscriptionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD26B17F44841EF9A255037B435E8FA3 /* SubscriptionsList.swift */; };
+		CD97CA980E0D9175114DECC44C5E30F1 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3A424B6DF19C2778EB16A0852C0BB2FD /* memtable.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		CF715B18F641AB8BD1D728C023C5780D /* SearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E7186304821174E84431BC0CEDCE8B /* SearchList.swift */; };
+		D142FE4DCA58CD1A20CC78E72D141C67 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 1A66B6D3DED8FAFAD8546C6499027221 /* table_cache.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		D143A48E638AFDBD788EBFDC833E04BC /* pb_decode.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D287649FC7BF23B548FD3822660DAE /* pb_decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F2E6A2406F057FD8F9241F5D5BF535 /* GuideCategoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35330ECBAB8E753FF9B8EB9D2C23FF57 /* GuideCategoriesList.swift */; };
+		D3767DCEB8309F47E7B7F9A38BD88203 /* CaptionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D18DA5951A508647D0E0B2E19F4F4 /* CaptionList.swift */; };
+		D3FE57650410EBDE033549579E01CC31 /* CaptionListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417AFF3CD08F872B80B837CBD3F334F2 /* CaptionListRequest.swift */; };
+		D6703FB1D93BA3BB8F891584F37A4152 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0B60A685E0D8D1157A15804D88A10DB9 /* two_level_iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		D69336DACA5C28AE367F73481AAC863D /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = 71F17736208F990847BDCFCA34801EBA /* options.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		D808C429BF7215F55C6081180AE19763 /* ChannelSectionsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418AC6EDC71C8775A7F256311C623225 /* ChannelSectionsListRequest.swift */; };
+		D9B303AE1E555CDB1B67BB1F4106362F /* ResultOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5F7749179ACE934C64CCD949705B1A /* ResultOrder.swift */; };
+		E1331724A7D92526AA8714A62C353932 /* pb_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 9878DD894F8A56341F1E00F3648E5423 /* pb_decode.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc -fno-objc-arc"; }; };
+		E157B721D0E04891BFB7F274916674D3 /* c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 094BA87F580FCEED0D11B781E51FBE43 /* c.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		E2310A1D806230594BA6AA0C5CA0DFD0 /* testutil.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC75523A661E8BB5612700EE8FBE0A /* testutil.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		E240DD31C6B6591E02F226EFCDBA441F /* PlaylistItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C294E0E08D9A58BFBD9C2BEE0DE813 /* PlaylistItemsList.swift */; };
+		E44FFFFD197BB0B4F1D621484539C276 /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985D83CFAF4368ED5A928B36FDE7843 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4F1923E63A82C1590520DB26D8E217B /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 22C906A89289096B7257EB211F95ACE5 /* port_posix.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		E97CB777BE77261674FB54A16BCDDE57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		EACB76607E778C92D80A95DCACDA299F /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91FB82CA6CFEC0AE9CFCC1D02C961A /* Part.swift */; };
+		EBCD339C3048FB25D344217D73CF2060 /* PlaylistsListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA7C7577387E3988E9FF3E817CB2352 /* PlaylistsListRequest.swift */; };
+		EDCC7F49CF9F4579CCE9501962CC219E /* comparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CCDD53948DD13B1CC323E44185EB0D8 /* comparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB08B052E02B0499C2F16911C8B9C8B /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2F66F619EACA5A8B88950B3B664A1 /* GoogleToolboxForMac-dummy.m */; };
+		EFE0CB72BEEAC69D7C5E7400694C7542 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAA4C9917DEFC06C7AD8351E21B9A9C /* DictionaryExtensions.swift */; };
+		F0A63E0A7674C60BE4F24B222C1A47FB /* SearchVideoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFA7AE0B461A55C8813DB51CE46BE00 /* SearchVideoType.swift */; };
+		F1AD75905F653512FA5B65D80D03B32E /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 6E52AA486E8EAA737531EDC1309DD585 /* iterator.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		F1F1A3E319933F7B92356D631EC63505 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 93E55DE6BE1F5BC7CAB6A332230AD594 /* db_iter.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		F3F0666E95F322A8D888E43BD02C39D9 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = B5688062F57D3CBB9924FF0E3FA8D21E /* env.cc */; settings = {COMPILER_FLAGS = "-DOS_MACOSX -DLEVELDB_PLATFORM_POSIX -fno-objc-arc"; }; };
+		F470ECF6F38C61370F6E99396D7FA0AC /* YoutubeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D40FDE94C35C8D2E0CB210469D9D294 /* YoutubeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A34A98E8B84D12A0F2282256AA3E34 /* SearchVideoDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164EB7AE889B6243922CE0D674EC69F5 /* SearchVideoDefinition.swift */; };
+		FAC35BE933C08EC75C584E445A2C21CB /* RequestableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93A6972D1A2BD826A2B2A55568855DE /* RequestableExtensions.swift */; };
+		FB206BDF4A17C9DB4D990C192B6BA3AE /* I18nLanguagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F109F854953F2C7CA4604DCD70F928A /* I18nLanguagesList.swift */; };
+		FB518E67109F43803DB4728137BE8A80 /* SearchVideoCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894FF4B5A37EFE8213C89899B5AD1802 /* SearchVideoCaption.swift */; };
+		FF556DA7BFAD222FEA52DC0B662962AF /* VideoAbuseReportReasonsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B90C2F72CFD213568F7C5565B310457 /* VideoAbuseReportReasonsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,169 +176,257 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60C61D78B485581FA67AA7A2C9756E46;
+			remoteGlobalIDString = 5F67CA49CF059F9C99D12B558A48A558;
 			remoteInfo = "Pods-MAS Peer Assignment";
 		};
-		5673757A98E60D391C2852FCC468B1A7 /* PBXContainerItemProxy */ = {
+		1578E8CF2F7DE01B6F4104A295C7A092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10DDE57A725992DCC4A3A73DFB03CD3;
+			remoteInfo = YoutubeKit;
+		};
+		16FF7FB17809CBA7EBC5EABA96031F60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 97156FFAFF3C3C1CA4D0DB2811478C8E;
 			remoteInfo = "leveldb-library";
 		};
-		8FCF4F64EBD75CAA877A290B52ED47A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8364BB258018143B83798DE31C13546D;
-			remoteInfo = nanopb;
-		};
-		9BF39F159234C8B21F040AD3498B960A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60C61D78B485581FA67AA7A2C9756E46;
-			remoteInfo = "Pods-MAS Peer Assignment";
-		};
-		9F0C39FE87DA8D3020A54AA655842F92 /* PBXContainerItemProxy */ = {
+		7E7F2EE0EFA446C8FD3A10BA7581018B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 435FC0056BB50E0BBD153B5E1E6E6D53;
 			remoteInfo = GoogleToolboxForMac;
 		};
+		9BF39F159234C8B21F040AD3498B960A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F67CA49CF059F9C99D12B558A48A558;
+			remoteInfo = "Pods-MAS Peer Assignment";
+		};
+		EF9D30922FCFC2C90658573A6C4E58DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8364BB258018143B83798DE31C13546D;
+			remoteInfo = nanopb;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007588143BAB15401539F1D173020CDE /* YoutubeDataAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoutubeDataAPI.swift; path = YoutubeKit/YoutubeDataAPI.swift; sourceTree = "<group>"; };
+		0319F119F529846584A9FA73578C6950 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
 		0477BC971080D100510E7DF608655187 /* Pods-MAS Peer AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		070C947052E5996F921B4140C53DDA02 /* format.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cc; path = table/format.cc; sourceTree = "<group>"; };
+		0835F7260797C5A8FB39C0FFD88635BE /* builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = builder.cc; path = db/builder.cc; sourceTree = "<group>"; };
 		0848577576B0C66F871AD6F01542B0E3 /* Pods-MAS Peer AssignmentTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer AssignmentTests-frameworks.sh"; sourceTree = "<group>"; };
-		0A962D2A394416E45F7AB9C9B9E32945 /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
+		09239D39DD4A13325B03DB4430129E03 /* Snippet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snippet.swift; path = YoutubeKit/API/Models/Snippet.swift; sourceTree = "<group>"; };
+		0944CB1F281F961D7C722001381FEB53 /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = YoutubeKit/API/Requestable.swift; sourceTree = "<group>"; };
+		094BA87F580FCEED0D11B781E51FBE43 /* c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = c.cc; path = db/c.cc; sourceTree = "<group>"; };
+		0985D83CFAF4368ED5A928B36FDE7843 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		0A7663F3F677563B5046261814DB7C0F /* SearchResourceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchResourceType.swift; path = YoutubeKit/API/Constants/SearchResourceType.swift; sourceTree = "<group>"; };
+		0B60A685E0D8D1157A15804D88A10DB9 /* two_level_iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = two_level_iterator.cc; path = table/two_level_iterator.cc; sourceTree = "<group>"; };
+		0B90C2F72CFD213568F7C5565B310457 /* VideoAbuseReportReasonsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoAbuseReportReasonsList.swift; path = YoutubeKit/API/Models/VideoAbuseReportReasonsList.swift; sourceTree = "<group>"; };
+		0BD431E000CF2CAB5BD147B6CD2A6E7A /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		0BEC75523A661E8BB5612700EE8FBE0A /* testutil.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testutil.cc; path = util/testutil.cc; sourceTree = "<group>"; };
 		0C2EEAF810782DAF73D31DF7E518B415 /* Pods-MAS Peer AssignmentUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAS Peer AssignmentUITests-dummy.m"; sourceTree = "<group>"; };
-		0DA4D47FC8145EED1E50A74EF0BBBCC0 /* block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block.cc; path = table/block.cc; sourceTree = "<group>"; };
-		0E93795EA73EBECD76A995AB6097EB00 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
-		1387EE66D4ACD3FBBD68D7DC5A48886E /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
-		13D260E2A50C85CBA8F5CAC45267EBF2 /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
-		16346927C265BB36BA2984BCADDC3FE4 /* options.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = options.cc; path = util/options.cc; sourceTree = "<group>"; };
-		165D00F808FEA0531F912006C08278EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A62E8843AAA00EFA5505DFEDE14BFB2 /* dbformat.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dbformat.cc; path = db/dbformat.cc; sourceTree = "<group>"; };
-		1C2273205A9B770B08BA2BA464D3A417 /* two_level_iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = two_level_iterator.cc; path = table/two_level_iterator.cc; sourceTree = "<group>"; };
-		20F2FAB0D443B4524B7B30D0A8B61924 /* histogram.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = histogram.cc; path = util/histogram.cc; sourceTree = "<group>"; };
-		21EBE639A053326B0AEDFE7F47773EA5 /* Pods_MAS_Peer_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_Assignment.framework; path = "Pods-MAS Peer Assignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		23935593F852070F71D95ADF4E555C6D /* leveldb_main.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = leveldb_main.cc; path = db/leveldb_main.cc; sourceTree = "<group>"; };
-		257B14B0E0B56F3FB0E3C5D09963EF2D /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
-		27431FBFB0B3861FB8B7DF021F2AA1C2 /* iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.cc; path = table/iterator.cc; sourceTree = "<group>"; };
+		0EC2F66F619EACA5A8B88950B3B664A1 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		0F109F854953F2C7CA4604DCD70F928A /* I18nLanguagesList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = I18nLanguagesList.swift; path = YoutubeKit/API/Models/I18nLanguagesList.swift; sourceTree = "<group>"; };
+		0F5C178A59692A995C41E049219869E7 /* BoolExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolExtensions.swift; path = YoutubeKit/Extensions/BoolExtensions.swift; sourceTree = "<group>"; };
+		164EB7AE889B6243922CE0D674EC69F5 /* SearchVideoDefinition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoDefinition.swift; path = YoutubeKit/API/Constants/SearchVideoDefinition.swift; sourceTree = "<group>"; };
+		1A66B6D3DED8FAFAD8546C6499027221 /* table_cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_cache.cc; path = db/table_cache.cc; sourceTree = "<group>"; };
+		1AB41E966379F46BBC4A7734401B34A9 /* filter_block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_block.cc; path = table/filter_block.cc; sourceTree = "<group>"; };
+		1B42AF079132C6C2B6C45E8553A86284 /* PageInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageInfo.swift; path = YoutubeKit/API/Models/PageInfo.swift; sourceTree = "<group>"; };
+		1C583879EC2728CA82F44564C93F59FF /* SearchVideoEmbeddable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoEmbeddable.swift; path = YoutubeKit/API/Constants/SearchVideoEmbeddable.swift; sourceTree = "<group>"; };
+		1CCDD53948DD13B1CC323E44185EB0D8 /* comparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comparator.h; path = include/leveldb/comparator.h; sourceTree = "<group>"; };
+		1E07236A5B835500DA90082A11602515 /* filter_policy.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_policy.cc; path = util/filter_policy.cc; sourceTree = "<group>"; };
+		207A5CEF779DC83BB765D71C5AA04FB9 /* log_reader.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_reader.cc; path = db/log_reader.cc; sourceTree = "<group>"; };
+		21FBF34A58F5A786E635C4856133C624 /* SearchVideoSyndicated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoSyndicated.swift; path = YoutubeKit/API/Constants/SearchVideoSyndicated.swift; sourceTree = "<group>"; };
+		22C906A89289096B7257EB211F95ACE5 /* port_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix.cc; path = port/port_posix.cc; sourceTree = "<group>"; };
+		25F0B16FA3B67964E1D2C0465E61AAFE /* YoutubeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YoutubeKit.framework; path = YoutubeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D87E7D6CF6351843FAC2D5A002BB12 /* YoutubeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YoutubeKit.xcconfig; sourceTree = "<group>"; };
+		2803BB42BDE828E38B80FFF2116BC29C /* YoutubeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YoutubeKit.modulemap; sourceTree = "<group>"; };
 		2A33F9B890F09FD9204633C61559725B /* Pods-MAS Peer Assignment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MAS Peer Assignment.modulemap"; sourceTree = "<group>"; };
 		2AF299E003FBEF95169D68ED345A3F3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BEE5D8C1AD65B109058EF91AD1B1DD6 /* pb_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_common.h; sourceTree = "<group>"; };
+		2BC5956DF594C4993EF6FA89E3B70369 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		2C94016EA492066CD521E99A514BDD52 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		2C965A1D4034BBEE2D0530EE526025A3 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2CAEF41377E7C18E9C7295B6CEF17022 /* CommentThreadsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentThreadsListRequest.swift; path = YoutubeKit/API/Requests/CommentThreadsListRequest.swift; sourceTree = "<group>"; };
 		2D1F7A3E2FB03EB7A35B1D3EE1161734 /* Pods-MAS Peer AssignmentTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer AssignmentTests-resources.sh"; sourceTree = "<group>"; };
 		2DDD51C8613151B0334B5155C72B4440 /* Pods-MAS Peer AssignmentTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MAS Peer AssignmentTests.modulemap"; sourceTree = "<group>"; };
-		2E3150DE11682708CA6C0D8DEB4FB402 /* leveldb-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "leveldb-library.modulemap"; sourceTree = "<group>"; };
-		30D2CAE1C5C2910A169F65D70C02345E /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
-		39EDA999AE6E95BC47EDEC6E44D5FCDF /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
-		43D585FCCEBD1AEDC0F96C625E459320 /* c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c.h; path = include/leveldb/c.h; sourceTree = "<group>"; };
+		2FAA4C9917DEFC06C7AD8351E21B9A9C /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = YoutubeKit/Extensions/DictionaryExtensions.swift; sourceTree = "<group>"; };
+		34BE0244E458CA599FB8B8CBEFC4F8B9 /* ApiSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApiSession.swift; path = YoutubeKit/API/ApiSession.swift; sourceTree = "<group>"; };
+		35330ECBAB8E753FF9B8EB9D2C23FF57 /* GuideCategoriesList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuideCategoriesList.swift; path = YoutubeKit/API/Models/GuideCategoriesList.swift; sourceTree = "<group>"; };
+		36626BF6085E3DB79B6E2F47793711B6 /* ResourceID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResourceID.swift; path = YoutubeKit/API/Models/ResourceID.swift; sourceTree = "<group>"; };
+		3792FCA0CA7E7DB20A3D14B69D579497 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		38FE65BB59B592177B807445B7B419FD /* db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = db.h; path = include/leveldb/db.h; sourceTree = "<group>"; };
+		3A424B6DF19C2778EB16A0852C0BB2FD /* memtable.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = memtable.cc; path = db/memtable.cc; sourceTree = "<group>"; };
+		3A757418B01E6160DD04E9EB016A2F6F /* filename.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filename.cc; path = db/filename.cc; sourceTree = "<group>"; };
+		3AAA2FFEC378A48E4952F77324F8DE78 /* PlaylistItemsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistItemsListRequest.swift; path = YoutubeKit/API/Requests/PlaylistItemsListRequest.swift; sourceTree = "<group>"; };
+		3AEF7C8DE6562850EF2BD33EA4F71B7F /* QueryParameterable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParameterable.swift; path = YoutubeKit/Common/QueryParameterable.swift; sourceTree = "<group>"; };
+		3D2DB6ABDFA1008CFB27E28037940E90 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		3DB79FBB7F7BDE0266FB0551F83F0A7D /* merger.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = merger.cc; path = table/merger.cc; sourceTree = "<group>"; };
+		40BE3E7F8DD03B0EFB0C9BBFA9D40F11 /* format.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = format.cc; path = table/format.cc; sourceTree = "<group>"; };
+		417AFF3CD08F872B80B837CBD3F334F2 /* CaptionListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptionListRequest.swift; path = YoutubeKit/API/Requests/CaptionListRequest.swift; sourceTree = "<group>"; };
+		418AC6EDC71C8775A7F256311C623225 /* ChannelSectionsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelSectionsListRequest.swift; path = YoutubeKit/API/Requests/ChannelSectionsListRequest.swift; sourceTree = "<group>"; };
+		440D5FAA7F805C74DD133394B37E8AAA /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
 		4621C23D799D79957EB7825E05FC858D /* Pods-MAS Peer AssignmentTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAS Peer AssignmentTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4B5C5393C8516895EA716DEE53549977 /* Pods_MAS_Peer_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_AssignmentTests.framework; path = "Pods-MAS Peer AssignmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4691E4D60725D074793B9749FD594037 /* Pods_MAS_Peer_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_Assignment.framework; path = "Pods-MAS Peer Assignment.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E3C02D4C2FBEA09298C7E158F79DEB /* SubscriptionsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionsListRequest.swift; path = YoutubeKit/API/Requests/SubscriptionsListRequest.swift; sourceTree = "<group>"; };
+		47F88AF4CE83779D170D78CB056BACB6 /* nanopb.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = nanopb.modulemap; sourceTree = "<group>"; };
+		4A7BAB91C5BAB490B3E95AAB9C40952B /* MyRating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRating.swift; path = YoutubeKit/API/Constants/MyRating.swift; sourceTree = "<group>"; };
 		4C65371BB2F7C32D39EDE4462B801DC4 /* Pods-MAS Peer AssignmentUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAS Peer AssignmentUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4CA8B078B6F5625CB35B5A503DE55695 /* testharness.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testharness.cc; path = util/testharness.cc; sourceTree = "<group>"; };
-		4EF1449D53268400A9D241B152C1B512 /* log_writer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_writer.cc; path = db/log_writer.cc; sourceTree = "<group>"; };
-		4FB361C468E12256274DFBEC4867CBA5 /* write_batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = write_batch.h; path = include/leveldb/write_batch.h; sourceTree = "<group>"; };
-		505F9262290D0989881A5105E0BEA1C1 /* table_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_builder.cc; path = table/table_builder.cc; sourceTree = "<group>"; };
-		53C6FCD7F060E5AC21FA1AFC693BA346 /* builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = builder.cc; path = db/builder.cc; sourceTree = "<group>"; };
-		5410CB5B7210527459657AB38912233A /* memtable.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = memtable.cc; path = db/memtable.cc; sourceTree = "<group>"; };
-		57759D7BC2D3D8A7F21654723865BC9E /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = include/leveldb/iterator.h; sourceTree = "<group>"; };
-		5A96A2EE7FC9D473AB5120560F1DF04B /* cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = cache.cc; path = util/cache.cc; sourceTree = "<group>"; };
+		4C7AED07D7E68CE4DE0928879ECAF9AB /* dumpfile.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dumpfile.cc; path = db/dumpfile.cc; sourceTree = "<group>"; };
+		4E1724826D32321D17884A7201FC0722 /* comparator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = comparator.cc; path = util/comparator.cc; sourceTree = "<group>"; };
+		4E3B09F560D60C81BE84A70F91C0B47A /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		4E4A6A2ABC2CCAD7ED57B25DFA882923 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = YoutubeKit/API/HTTPMethod.swift; sourceTree = "<group>"; };
+		55843289C6CC10CFA6CBF051F8E270F9 /* ChannelList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelList.swift; path = YoutubeKit/API/Models/ChannelList.swift; sourceTree = "<group>"; };
+		5914A551B1E5E6B5C392F5F623C05B9B /* ActivityListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityListRequest.swift; path = YoutubeKit/API/Requests/ActivityListRequest.swift; sourceTree = "<group>"; };
+		59363AA7E641D68E951CEC93280A61BF /* Statistics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statistics.swift; path = YoutubeKit/API/Models/Statistics.swift; sourceTree = "<group>"; };
 		5B1E9803F7F806CF9A94EFBA948EF9FE /* Pods-MAS Peer AssignmentUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer AssignmentUITests-resources.sh"; sourceTree = "<group>"; };
+		5BA7E039A77EEE9981DA545A32E80957 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		5CDA0D06716B96799C1AB7A61B86FD49 /* I18nRegionsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = I18nRegionsListRequest.swift; path = YoutubeKit/API/Requests/I18nRegionsListRequest.swift; sourceTree = "<group>"; };
+		5DFC449D533B32D3586E6AB7284B578B /* I18nLanguagesListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = I18nLanguagesListRequest.swift; path = YoutubeKit/API/Requests/I18nLanguagesListRequest.swift; sourceTree = "<group>"; };
+		5E35F57EEE4C94005B9FE73E2A2FABF9 /* dbformat.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dbformat.cc; path = db/dbformat.cc; sourceTree = "<group>"; };
+		5FCAC0FEF1ABD0E4FC21503667C26B95 /* SearchSafeMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchSafeMode.swift; path = YoutubeKit/API/Constants/SearchSafeMode.swift; sourceTree = "<group>"; };
+		60E8956EE1905574DE961987B22020C3 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		6413760DE0C6CB778FD7BD673567F001 /* Pods-MAS Peer Assignment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAS Peer Assignment-dummy.m"; sourceTree = "<group>"; };
-		64B65A0A11D5B20AFDB67678E7A0DA18 /* coding.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = coding.cc; path = util/coding.cc; sourceTree = "<group>"; };
-		65AFA624F437556893F6B70D09DD4606 /* leveldb-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "leveldb-library-dummy.m"; sourceTree = "<group>"; };
-		67615B741E6BE89F7EF44EE21E98C3F2 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
-		6A8E2630777F61F7A9DF7F5120C64FE2 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		65A5FE12655CDAB7694E80E43C65005E /* filter_policy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filter_policy.h; path = include/leveldb/filter_policy.h; sourceTree = "<group>"; };
+		6672E042C92A6F67A866DF941ADF0790 /* VideoAbuseReportReasonsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoAbuseReportReasonsListRequest.swift; path = YoutubeKit/API/Requests/VideoAbuseReportReasonsListRequest.swift; sourceTree = "<group>"; };
+		66ECC5AB90FE882AA5711CB5140DF547 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
+		680109A36FD7C5234C509EE2841661B0 /* CommentListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentListRequest.swift; path = YoutubeKit/API/Requests/CommentListRequest.swift; sourceTree = "<group>"; };
+		68B85C14781F8050412206667ADB61E5 /* SearchVideoLicense.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoLicense.swift; path = YoutubeKit/API/Constants/SearchVideoLicense.swift; sourceTree = "<group>"; };
+		69571A520B9FD1F93FE7121EA2EBB7B8 /* histogram.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = histogram.cc; path = util/histogram.cc; sourceTree = "<group>"; };
+		69C294E0E08D9A58BFBD9C2BEE0DE813 /* PlaylistItemsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistItemsList.swift; path = YoutubeKit/API/Models/PlaylistItemsList.swift; sourceTree = "<group>"; };
+		6CB50AB1544E95AF1C0FB6CE428CD581 /* crc32c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = crc32c.cc; path = util/crc32c.cc; sourceTree = "<group>"; };
 		6CBE27CAC0E15656D5F14BBE4411527B /* Pods-MAS Peer Assignment-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer Assignment-resources.sh"; sourceTree = "<group>"; };
-		6D282A48BAA083EB0E45B8379E112BFB /* db_impl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_impl.cc; path = db/db_impl.cc; sourceTree = "<group>"; };
-		6DF08BDDA2BB90732555D58F0F34BE2F /* table_builder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table_builder.h; path = include/leveldb/table_builder.h; sourceTree = "<group>"; };
-		7073A4C7BA66748DCAFAFCEE2860A354 /* options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = options.h; path = include/leveldb/options.h; sourceTree = "<group>"; };
+		6E52AA486E8EAA737531EDC1309DD585 /* iterator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.cc; path = table/iterator.cc; sourceTree = "<group>"; };
+		708105B4573F764D4C20E9409DEEF8C9 /* db_impl.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_impl.cc; path = db/db_impl.cc; sourceTree = "<group>"; };
+		70AC6BA41D6E5CDFE4EC6B8C84430FAB /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
+		70F96275CF27B47CE22633E3FF20ADD8 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = leveldb.framework; path = "leveldb-library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7119BF72C9C1EA22D8E788F77F22346C /* VideoCategoriesList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCategoriesList.swift; path = YoutubeKit/API/Models/VideoCategoriesList.swift; sourceTree = "<group>"; };
+		71F17736208F990847BDCFCA34801EBA /* options.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = options.cc; path = util/options.cc; sourceTree = "<group>"; };
+		72966EA49FA74344985B807579523441 /* VideoList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoList.swift; path = YoutubeKit/API/Models/VideoList.swift; sourceTree = "<group>"; };
+		73D287649FC7BF23B548FD3822660DAE /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
 		749ACA10FAF28D6B457E5E6F3BB054FD /* Pods-MAS Peer AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		74CB63B43AF5EC456484BB3D8F860961 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
-		79228D4EBC8B3D820DDD564E84B0C8DA /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
-		79E6C188D533E3407E58227D5A46DD6D /* pb_encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_encode.h; sourceTree = "<group>"; };
-		7A2973773392AF08ED1FDBA0D70E9273 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = leveldb.framework; path = "leveldb-library.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AA73AE1AD1E741D2DFF43908722397F /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
-		80A40B7B49E189457B478F2B19F03647 /* leveldb-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "leveldb-library.xcconfig"; sourceTree = "<group>"; };
-		817FF2F1E4C0C1783A22A161A70AF7F5 /* hash.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = hash.cc; path = util/hash.cc; sourceTree = "<group>"; };
-		81D12FA9BC3EAF4BDA9CFFD6B21E8B36 /* filename.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filename.cc; path = db/filename.cc; sourceTree = "<group>"; };
-		83B53B1C3C66944A148F634B0744F13A /* dumpfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dumpfile.h; path = include/leveldb/dumpfile.h; sourceTree = "<group>"; };
-		84A999BE7BC421CF3A513648312DA56B /* cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cache.h; path = include/leveldb/cache.h; sourceTree = "<group>"; };
-		8633C5C2742DC285735A21CF52A97FB4 /* env.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env.cc; path = util/env.cc; sourceTree = "<group>"; };
-		869C821C1C7338A62BDCC2EAB935F6AB /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86C5E028D099D2C4E460DF1128E28DB4 /* arena.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = arena.cc; path = util/arena.cc; sourceTree = "<group>"; };
-		86C9809F57BB3004FE0F6DADF3828238 /* db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = db.h; path = include/leveldb/db.h; sourceTree = "<group>"; };
+		75C3240AE092077022752095E3D6701F /* leveldb-library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "leveldb-library.modulemap"; sourceTree = "<group>"; };
+		772AF3BD59322D3C8346BE4F87887F86 /* VideoCategoryListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCategoryListRequest.swift; path = YoutubeKit/API/Requests/VideoCategoryListRequest.swift; sourceTree = "<group>"; };
+		77334D6E50C5F2901908E7C5CF9F265A /* env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = env.h; path = include/leveldb/env.h; sourceTree = "<group>"; };
+		7947A4E7C6D2D2C06CD92110FAFCF7BD /* Pods_MAS_Peer_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_AssignmentTests.framework; path = "Pods-MAS Peer AssignmentTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0E0124599963F18C80B029473CB5B1 /* Thumbnail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Thumbnail.swift; path = YoutubeKit/API/Models/Thumbnail.swift; sourceTree = "<group>"; };
+		7B1F43D55A81E11333C632A9D0C88325 /* YoutubeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubeKit-prefix.pch"; sourceTree = "<group>"; };
+		7B5269148A37A5FBAE4F362EB5224D71 /* options.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = options.h; path = include/leveldb/options.h; sourceTree = "<group>"; };
+		7BAF249D4BFE05423CE35BE65FFB5C69 /* leveldb-library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "leveldb-library.xcconfig"; sourceTree = "<group>"; };
+		7CEBB757A77D211DA2C5D2629C9CE936 /* testharness.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testharness.cc; path = util/testharness.cc; sourceTree = "<group>"; };
+		7F4FF9E432024753765CBC7ED9571448 /* hash.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = hash.cc; path = util/hash.cc; sourceTree = "<group>"; };
+		80FBFD54D786F5293107973CC9ED929B /* leveldb-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "leveldb-library-prefix.pch"; sourceTree = "<group>"; };
+		811BCEB728B7016F350319BA00813089 /* version_set.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_set.cc; path = db/version_set.cc; sourceTree = "<group>"; };
+		816D6A4A82EB596EF920DF85BD2B9462 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		82BCBCD7B9F13FBB93E25835F6CF320D /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		84020A6DCAF3F2CF9EDDD6DC773032A2 /* block_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block_builder.cc; path = table/block_builder.cc; sourceTree = "<group>"; };
+		849015372B7715F317B0CEECE0A84847 /* SearchVideoDimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoDimension.swift; path = YoutubeKit/API/Constants/SearchVideoDimension.swift; sourceTree = "<group>"; };
+		8717F4B0FB5FEA0004D970EF1B560B24 /* Pods_MAS_Peer_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_AssignmentUITests.framework; path = "Pods-MAS Peer AssignmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8727E3C8E789A3D0FB76C9FEC6745877 /* c.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = c.h; path = include/leveldb/c.h; sourceTree = "<group>"; };
 		874EE4A666FB88F7864681CC1D8CBBCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877CD1605A7475108FF2235356E09DCB /* leveldb-library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "leveldb-library-dummy.m"; sourceTree = "<group>"; };
 		88DB8B159195D86A37426FAE8B117559 /* Pods-MAS Peer AssignmentUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer AssignmentUITests-frameworks.sh"; sourceTree = "<group>"; };
+		894FF4B5A37EFE8213C89899B5AD1802 /* SearchVideoCaption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoCaption.swift; path = YoutubeKit/API/Constants/SearchVideoCaption.swift; sourceTree = "<group>"; };
 		8A67D36FA8AFAF2F0B8DB17EF1912348 /* Pods-MAS Peer AssignmentTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAS Peer AssignmentTests-umbrella.h"; sourceTree = "<group>"; };
-		8ABA185AA39C98CE7DA9609BC566F45E /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		8AC5A36501DED97D400DDB86EAC26CD6 /* Pods-MAS Peer AssignmentUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MAS Peer AssignmentUITests.modulemap"; sourceTree = "<group>"; };
-		8AC8E20A4864B48522B0FF1E8E77B935 /* nanopb-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-umbrella.h"; sourceTree = "<group>"; };
-		8BC2E4977880933D8F633453D129B2DD /* port_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = port_posix.cc; path = port/port_posix.cc; sourceTree = "<group>"; };
 		8CB02A25CD5618BBD1D2474224CAA15D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D24C0680F7F3EA0DB6CC1AF1144D9F2 /* Pods-MAS Peer AssignmentTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAS Peer AssignmentTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D40FDE94C35C8D2E0CB210469D9D294 /* YoutubeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YoutubeKit-umbrella.h"; sourceTree = "<group>"; };
+		8DCB5EA4C866C88ED512A7F68F0DE6A8 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		90D4959CE56AE325166A382B5999D70A /* Pods-MAS Peer AssignmentUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAS Peer AssignmentUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94E109447057E66F9B85E5AEF018AE4F /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
+		93E55DE6BE1F5BC7CAB6A332230AD594 /* db_iter.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = db_iter.cc; path = db/db_iter.cc; sourceTree = "<group>"; };
+		9447820BCF08D58E728490926C4BA464 /* leveldb-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "leveldb-library-umbrella.h"; sourceTree = "<group>"; };
+		957E895A6BA8F089DA30F5F3C01651E8 /* ResponseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseError.swift; path = YoutubeKit/Error/ResponseError.swift; sourceTree = "<group>"; };
+		9878DD894F8A56341F1E00F3648E5423 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
 		99F1A91727D8085E4289FE4795A6A9EC /* Pods-MAS Peer AssignmentUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAS Peer AssignmentUITests-umbrella.h"; sourceTree = "<group>"; };
-		9AE9B829897D6070866769CA2D9F6B0B /* block_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block_builder.cc; path = table/block_builder.cc; sourceTree = "<group>"; };
+		9A528EC3E7E029F685E39D4C796AE643 /* table_builder.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_builder.cc; path = table/table_builder.cc; sourceTree = "<group>"; };
+		9BE08A7B067CDE33C9E99A7B1E651D32 /* PlaylistsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistsList.swift; path = YoutubeKit/API/Models/PlaylistsList.swift; sourceTree = "<group>"; };
+		9BFF5AF552F897AAE9CE4E22B76E473B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C43EC7D7FF8187C6064D95F9AB1D41B /* cache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cache.h; path = include/leveldb/cache.h; sourceTree = "<group>"; };
 		9CEA0A30DC3F8363F636D2649E9FC27C /* Pods-MAS Peer Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer Assignment.release.xcconfig"; sourceTree = "<group>"; };
-		9E0A060CF92D4BC004F23637C204A63B /* filter_policy.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_policy.cc; path = util/filter_policy.cc; sourceTree = "<group>"; };
-		9E4A96BCF7CDF6C694470D6812D4F34C /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = include/leveldb/status.h; sourceTree = "<group>"; };
-		A1784C245B0D4950E045C927A6792CB4 /* pb_decode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_decode.c; sourceTree = "<group>"; };
-		A22F5F80D5224B277933E17F99517597 /* crc32c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = crc32c.cc; path = util/crc32c.cc; sourceTree = "<group>"; };
-		A41D2B248E33681665037373DDFB05DB /* leveldb-library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "leveldb-library-prefix.pch"; sourceTree = "<group>"; };
-		A42FE2E8F523FB734A8CD6EDD4D26F9E /* write_batch.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = write_batch.cc; path = db/write_batch.cc; sourceTree = "<group>"; };
-		A88B996BE68151B0109B6400E80C3A07 /* env_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env_posix.cc; path = util/env_posix.cc; sourceTree = "<group>"; };
-		ABD602F0F43685F302C2BB2A92BF3C9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CFA7AE0B461A55C8813DB51CE46BE00 /* SearchVideoType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoType.swift; path = YoutubeKit/API/Constants/SearchVideoType.swift; sourceTree = "<group>"; };
+		9D4C911FEA8285412750B27F14A7B2EA /* status.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status.cc; path = util/status.cc; sourceTree = "<group>"; };
+		9EAC124D5233561979B15CFAD022751B /* Localized.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Localized.swift; path = YoutubeKit/API/Models/Localized.swift; sourceTree = "<group>"; };
+		A0330F88958BD2D3767B5F99E19DB5DA /* coding.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = coding.cc; path = util/coding.cc; sourceTree = "<group>"; };
+		A20C3D030AABB307651A943FFC265B7E /* CommentModerationStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentModerationStatus.swift; path = YoutubeKit/API/Constants/CommentModerationStatus.swift; sourceTree = "<group>"; };
+		A23B851A9C2C12D5BC945AD328CDD2B9 /* I18nRegionsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = I18nRegionsList.swift; path = YoutubeKit/API/Models/I18nRegionsList.swift; sourceTree = "<group>"; };
+		A721197A6F209A6FA677B923559F6129 /* slice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = slice.h; path = include/leveldb/slice.h; sourceTree = "<group>"; };
+		A78F63856BB369A8B43B8E775B502D54 /* SearchListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchListRequest.swift; path = YoutubeKit/API/Requests/SearchListRequest.swift; sourceTree = "<group>"; };
+		A985033C1432DDE69CF528C7EA0DAC89 /* status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = status.h; path = include/leveldb/status.h; sourceTree = "<group>"; };
+		A9A21AFE0791C65E35663060F83A26DE /* YoutubeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YoutubeKit-dummy.m"; sourceTree = "<group>"; };
+		A9B62F35F44DFE8A2D88DD2C2900F661 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = YoutubeKit/Common/Result.swift; sourceTree = "<group>"; };
+		AAA7C7577387E3988E9FF3E817CB2352 /* PlaylistsListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaylistsListRequest.swift; path = YoutubeKit/API/Requests/PlaylistsListRequest.swift; sourceTree = "<group>"; };
+		AB5A393BD6E3B2E579DD51C1566B4C5F /* table.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table.cc; path = table/table.cc; sourceTree = "<group>"; };
+		ACF18E327F8D9F357C23F32BA2ECC941 /* YTSwiftyPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YTSwiftyPlayer.swift; path = YoutubeKit/Player/YTSwiftyPlayer.swift; sourceTree = "<group>"; };
+		AE32013B150E236AC7F06928847C146F /* write_batch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = write_batch.h; path = include/leveldb/write_batch.h; sourceTree = "<group>"; };
+		AE333B99DDA7EEF4EF838C2EBA18C4EE /* nanopb-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "nanopb-prefix.pch"; sourceTree = "<group>"; };
 		AEE9D285D02391445D50FD9EDA7A3362 /* Pods-MAS Peer Assignment-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAS Peer Assignment-acknowledgements.plist"; sourceTree = "<group>"; };
-		B13770FC14037B4B77C929E6C01CCCD0 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		B7498FDC52163AE9FAA517386575E2C2 /* log_reader.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_reader.cc; path = db/log_reader.cc; sourceTree = "<group>"; };
-		B7E11FFB3FD006A84A0781F6A8399D9A /* dumpfile.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = dumpfile.cc; path = db/dumpfile.cc; sourceTree = "<group>"; };
-		BED963E0565C8709D280E13C0A9D1F33 /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table.h; path = include/leveldb/table.h; sourceTree = "<group>"; };
-		BF07C0958BFC2CB7F77E2DA874BB3D45 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		B1E7186304821174E84431BC0CEDCE8B /* SearchList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchList.swift; path = YoutubeKit/API/Models/SearchList.swift; sourceTree = "<group>"; };
+		B5688062F57D3CBB9924FF0E3FA8D21E /* env.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env.cc; path = util/env.cc; sourceTree = "<group>"; };
+		B588DCB40C7C862721EF50D9143B48FE /* table_builder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table_builder.h; path = include/leveldb/table_builder.h; sourceTree = "<group>"; };
+		B59BD40A8B9A87169A964877780912D6 /* ContentDetails.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentDetails.swift; path = YoutubeKit/API/Models/ContentDetails.swift; sourceTree = "<group>"; };
+		B60061160F772031284C5132C14EDE0E /* CommentThreadsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentThreadsList.swift; path = YoutubeKit/API/Models/CommentThreadsList.swift; sourceTree = "<group>"; };
+		B99D701628DE819AB65BAABE7B97FD60 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD48D66C72DC4A2B75A766C6670ABF5D /* ActivityInsertRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityInsertRequest.swift; path = YoutubeKit/API/Requests/ActivityInsertRequest.swift; sourceTree = "<group>"; };
+		BECD5A8B3556D4A49F9B8C3634E19312 /* repair.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = repair.cc; path = db/repair.cc; sourceTree = "<group>"; };
 		BF651F30B78EC0FBD1050E1D136D634D /* Pods-MAS Peer Assignment-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAS Peer Assignment-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C07BE7973C94DB1E83B46D67A8452324 /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
-		C4EDFBBD563D20F1DF1F5B12B0F05E28 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
-		C60D10EE95E3FFB1DE3BC7842C62B2D5 /* version_edit.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_edit.cc; path = db/version_edit.cc; sourceTree = "<group>"; };
-		C819BF440E7F74FED678453F0DCCF63F /* testutil.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = testutil.cc; path = util/testutil.cc; sourceTree = "<group>"; };
+		C426640399F1A080D8A14D370B1BE646 /* YoutubeKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YoutubeKit.swift; path = YoutubeKit/YoutubeKit.swift; sourceTree = "<group>"; };
+		C50DD6B1FCCD83CBF606A5E5AEF1B6DC /* nanopb.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = nanopb.xcconfig; sourceTree = "<group>"; };
+		C5F243A8E9FDB69E3A512F9AC2845251 /* ActivityList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityList.swift; path = YoutubeKit/API/Models/ActivityList.swift; sourceTree = "<group>"; };
+		C8276F571AE233C16B5831DBD79EFBC9 /* block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = block.cc; path = table/block.cc; sourceTree = "<group>"; };
+		C93A6972D1A2BD826A2B2A55568855DE /* RequestableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestableExtensions.swift; path = YoutubeKit/Extensions/RequestableExtensions.swift; sourceTree = "<group>"; };
 		C989FFD80D9CD3A51E64B64B231C8544 /* Pods-MAS Peer AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		CDB388D3CED2B0A40C19BE36EE0B28FB /* pb_encode.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_encode.c; sourceTree = "<group>"; };
-		CE0373753D69839E4DD310AB69EFACFD /* Pods_MAS_Peer_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAS_Peer_AssignmentUITests.framework; path = "Pods-MAS Peer AssignmentUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D16731B38BE3530C8B0B9B1C4503DF52 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		C992451E2E14DC6B6DF3A2849F74D77A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		C9FD6B359108B228AA149ECD7A5D0AF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3C78D5A9B4FA17BA41424449DC57CD /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = include/leveldb/iterator.h; sourceTree = "<group>"; };
+		CC8167DDDB8F372A33F0ABDE9BB28D80 /* SearchVideoDuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchVideoDuration.swift; path = YoutubeKit/API/Constants/SearchVideoDuration.swift; sourceTree = "<group>"; };
+		CF443B8C489F5B0F1B4E2B1848511FF6 /* leveldb_main.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = leveldb_main.cc; path = db/leveldb_main.cc; sourceTree = "<group>"; };
 		D1E4CDFFD371A64391718E1AAED667DB /* Pods-MAS Peer Assignment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAS Peer Assignment-umbrella.h"; sourceTree = "<group>"; };
-		D2B3367F99729FF9D0ABC67176E7C9E4 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
-		D47C7ABFA4F09A433416E6D08AB26CCD /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = nanopb.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66A82950FFDA0BD1EAC217826075F35 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		D2683326C148765243E7D74962A23C9A /* VideoListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoListRequest.swift; path = YoutubeKit/API/Requests/VideoListRequest.swift; sourceTree = "<group>"; };
+		D4602403C94DFB26B1F9DC408385A5C8 /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table.h; path = include/leveldb/table.h; sourceTree = "<group>"; };
+		D557111C02F1AEA094F35ADF61043F14 /* GuideCategoriesListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuideCategoriesListRequest.swift; path = YoutubeKit/API/Requests/GuideCategoriesListRequest.swift; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9E0D9B6D63B5659240C868559458B4B /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
-		DAA72277B49819EA3A6EC56EBB5AC9EA /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		DAC16B8EA3CBDAD2788DA886361586C7 /* pb_decode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb_decode.h; sourceTree = "<group>"; };
-		DB9F5B7507B7D380284C0FB2DF6DE1A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC8F5B3948CECA32EE4F1246BE3AC05F /* slice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = slice.h; path = include/leveldb/slice.h; sourceTree = "<group>"; };
-		DE94F96E457EFCA3CACAE2270664198C /* c.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = c.cc; path = db/c.cc; sourceTree = "<group>"; };
-		E0AC9B419FFDFA0D7AF3CF590C0E37E3 /* repair.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = repair.cc; path = db/repair.cc; sourceTree = "<group>"; };
-		E4895BC543F2F0C77B8879D3D3A3D075 /* table_cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = table_cache.cc; path = db/table_cache.cc; sourceTree = "<group>"; };
-		E8EE35D0AD04FDA1242A88F82F193178 /* leveldb-library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "leveldb-library-umbrella.h"; sourceTree = "<group>"; };
+		D7B6A953EA154951C95C4C0E568DE867 /* write_batch.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = write_batch.cc; path = db/write_batch.cc; sourceTree = "<group>"; };
+		D7E2AA041F61D2AEDF931F43FA23C662 /* RequestError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestError.swift; path = YoutubeKit/Error/RequestError.swift; sourceTree = "<group>"; };
+		DA1B795FA3FFFB316B1B32FBEAD246BB /* dumpfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dumpfile.h; path = include/leveldb/dumpfile.h; sourceTree = "<group>"; };
+		DA72EDCC5A5A4BDBF30A25626A00CA46 /* CommentList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentList.swift; path = YoutubeKit/API/Models/CommentList.swift; sourceTree = "<group>"; };
+		E0A887F030F36927FF9934A6ADF2A5D0 /* SearchEventType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchEventType.swift; path = YoutubeKit/API/Constants/SearchEventType.swift; sourceTree = "<group>"; };
+		E164A95D7982F37CAF3D5E5A689EDFD8 /* VideoCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCategory.swift; path = YoutubeKit/API/Constants/VideoCategory.swift; sourceTree = "<group>"; };
+		E1D458485702E14CE5AB854A8B02887F /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = YoutubeKit/API/Constants/Filter.swift; sourceTree = "<group>"; };
+		E20889E2F0A6E8B590FC7BA7308F112B /* pb_common.c */ = {isa = PBXFileReference; includeInIndex = 1; path = pb_common.c; sourceTree = "<group>"; };
+		E20D18DA5951A508647D0E0B2E19F4F4 /* CaptionList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptionList.swift; path = YoutubeKit/API/Models/CaptionList.swift; sourceTree = "<group>"; };
+		E2F99ACAB7499C78CAFB8BD00FA65CB4 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E47E8DE9A744ED442769C1E5610D3F5B /* log_writer.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = log_writer.cc; path = db/log_writer.cc; sourceTree = "<group>"; };
+		E595BBABEC82A32F29434DCF06A1CB3E /* bloom.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bloom.cc; path = util/bloom.cc; sourceTree = "<group>"; };
+		E86859E08556C3B9332A2D8A43F49991 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		EA111AAF1DE2970F0911CF99D7781B97 /* Pods-MAS Peer Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer Assignment.debug.xcconfig"; sourceTree = "<group>"; };
-		EAEF38C7D83724BC0347204BEE56F5D0 /* filter_policy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = filter_policy.h; path = include/leveldb/filter_policy.h; sourceTree = "<group>"; };
-		EC415A0C24191E2A099F3A58D4C04B9F /* comparator.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = comparator.cc; path = util/comparator.cc; sourceTree = "<group>"; };
-		EFA7C5740115250AE102A3C430F1A3D1 /* filter_block.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = filter_block.cc; path = table/filter_block.cc; sourceTree = "<group>"; };
-		F058A0933A79C99889A02FFC0CFC17FE /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = logging.cc; path = util/logging.cc; sourceTree = "<group>"; };
+		EA8B31008782B182D46CACFBDCEDE2D8 /* cache.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = cache.cc; path = util/cache.cc; sourceTree = "<group>"; };
+		EAEA3893A16A527EEF28BFC434C181D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02B11F9074B1B9242C7663A7E07F08 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE6A13E3EB2C80A4E8A2AA37CD6E7E3 /* ChannelListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelListRequest.swift; path = YoutubeKit/API/Requests/ChannelListRequest.swift; sourceTree = "<group>"; };
+		EF7C570ECEA7F988FA3E9B6F58F06102 /* player.html */ = {isa = PBXFileReference; includeInIndex = 1; name = player.html; path = YoutubeKit/player.html; sourceTree = "<group>"; };
+		EFB7C9906F56AE7ADAC5D958549FE538 /* ChannelSectionsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChannelSectionsList.swift; path = YoutubeKit/API/Models/ChannelSectionsList.swift; sourceTree = "<group>"; };
+		EFE4D48B1812093A17A1A1790D0381B4 /* YTSwiftyConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YTSwiftyConstants.swift; path = YoutubeKit/Player/YTSwiftyConstants.swift; sourceTree = "<group>"; };
 		F35A01098EFFF0D56086BBF4729DE775 /* Pods-MAS Peer AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAS Peer AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F4137F16CA4E72759FEB51EFD5796684 /* Pods-MAS Peer AssignmentTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAS Peer AssignmentTests-dummy.m"; sourceTree = "<group>"; };
-		F59E63EA2A8E7A85CB40B4351F7305B5 /* bloom.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = bloom.cc; path = util/bloom.cc; sourceTree = "<group>"; };
-		F7BE77523C75403D6C694BA0C31C7BAC /* comparator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comparator.h; path = include/leveldb/comparator.h; sourceTree = "<group>"; };
-		F8A6747C80090B5FE0B14DC435359541 /* status.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = status.cc; path = util/status.cc; sourceTree = "<group>"; };
-		F8F7715AD5CDA7E971DCDDF76B9A09ED /* env.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = env.h; path = include/leveldb/env.h; sourceTree = "<group>"; };
-		F9802E6B737F7DE5B49BE942EF237ED7 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		F580DD98F0FBFC319DE89AD744677FB5 /* version_edit.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = version_edit.cc; path = db/version_edit.cc; sourceTree = "<group>"; };
+		F882C2F76E5FC99FD127A21262B50D00 /* nanopb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "nanopb-dummy.m"; sourceTree = "<group>"; };
+		FA91FB82CA6CFEC0AE9CFCC1D02C961A /* Part.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Part.swift; path = YoutubeKit/API/Constants/Part.swift; sourceTree = "<group>"; };
+		FB5F7749179ACE934C64CCD949705B1A /* ResultOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultOrder.swift; path = YoutubeKit/API/Constants/ResultOrder.swift; sourceTree = "<group>"; };
 		FB8AF62E55E5CD075A74ECE8ED4C5B0F /* Pods-MAS Peer Assignment-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAS Peer Assignment-frameworks.sh"; sourceTree = "<group>"; };
-		FF4F80240C680D03F66AC1AC8AFAFF99 /* pb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = pb.h; sourceTree = "<group>"; };
+		FC089B7B3B292117958DFA38F6200044 /* CommentTextFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommentTextFormat.swift; path = YoutubeKit/API/Constants/CommentTextFormat.swift; sourceTree = "<group>"; };
+		FC20AD2A61431E200F45EBE1C8292E93 /* YTSwiftyPlayerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YTSwiftyPlayerDelegate.swift; path = YoutubeKit/Player/YTSwiftyPlayerDelegate.swift; sourceTree = "<group>"; };
+		FD26B17F44841EF9A255037B435E8FA3 /* SubscriptionsList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionsList.swift; path = YoutubeKit/API/Models/SubscriptionsList.swift; sourceTree = "<group>"; };
+		FDCB7B2DD937608A77895698B64D298F /* logging.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = logging.cc; path = util/logging.cc; sourceTree = "<group>"; };
+		FF136FC6527CBAEFE85993DC16B69460 /* env_posix.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = env_posix.cc; path = util/env_posix.cc; sourceTree = "<group>"; };
+		FF3C249A45138FF49D96C9FB5899A32B /* arena.cc */ = {isa = PBXFileReference; includeInIndex = 1; name = arena.cc; path = util/arena.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,14 +435,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				946378EF31DD32D0887D67660462BD6F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30F51E122F41C2B69A5FDE58AB0FDD9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				691530AF39C205EE06CA340D5899D8F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +462,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA701759367A3F78012024BB795B48E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DA38C0433C931D5B210254685FB55A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBD941229C64D98B69D5CEC4EA837489 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,113 +478,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F6F575FB8E7E93BCEDD71993892785F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97CB777BE77261674FB54A16BCDDE57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04E95DEA48ED85CCF6C07387506B8929 /* NSData+zlib */ = {
+		030A4CC82648DD594B5CBC75D2038332 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
-				D9E0D9B6D63B5659240C868559458B4B /* GTMNSData+zlib.h */,
-				D16731B38BE3530C8B0B9B1C4503DF52 /* GTMNSData+zlib.m */,
+				2BC5956DF594C4993EF6FA89E3B70369 /* GTMDefines.h */,
 			);
-			name = "NSData+zlib";
+			name = Defines;
 			sourceTree = "<group>";
 		};
-		070E2558C08D69172ECA28CDDA403F60 /* nanopb */ = {
+		04CF76EECE9F4506DF506FA6DFF3182D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FF4F80240C680D03F66AC1AC8AFAFF99 /* pb.h */,
-				13D260E2A50C85CBA8F5CAC45267EBF2 /* pb_common.c */,
-				2BEE5D8C1AD65B109058EF91AD1B1DD6 /* pb_common.h */,
-				A1784C245B0D4950E045C927A6792CB4 /* pb_decode.c */,
-				DAC16B8EA3CBDAD2788DA886361586C7 /* pb_decode.h */,
-				CDB388D3CED2B0A40C19BE36EE0B28FB /* pb_encode.c */,
-				79E6C188D533E3407E58227D5A46DD6D /* pb_encode.h */,
-				36748C3CFCF52049CDC97AE2F4AC23A9 /* decode */,
-				5230BB44AA8AA6FD12AE3383983D5949 /* encode */,
-				1DF77B745E997D2028D0942924D42DF9 /* Support Files */,
-			);
-			name = nanopb;
-			path = nanopb;
-			sourceTree = "<group>";
-		};
-		0F98B808F4F6E99743BAA699EE9CEA83 /* leveldb-library */ = {
-			isa = PBXGroup;
-			children = (
-				86C5E028D099D2C4E460DF1128E28DB4 /* arena.cc */,
-				0DA4D47FC8145EED1E50A74EF0BBBCC0 /* block.cc */,
-				9AE9B829897D6070866769CA2D9F6B0B /* block_builder.cc */,
-				F59E63EA2A8E7A85CB40B4351F7305B5 /* bloom.cc */,
-				53C6FCD7F060E5AC21FA1AFC693BA346 /* builder.cc */,
-				DE94F96E457EFCA3CACAE2270664198C /* c.cc */,
-				43D585FCCEBD1AEDC0F96C625E459320 /* c.h */,
-				5A96A2EE7FC9D473AB5120560F1DF04B /* cache.cc */,
-				84A999BE7BC421CF3A513648312DA56B /* cache.h */,
-				64B65A0A11D5B20AFDB67678E7A0DA18 /* coding.cc */,
-				EC415A0C24191E2A099F3A58D4C04B9F /* comparator.cc */,
-				F7BE77523C75403D6C694BA0C31C7BAC /* comparator.h */,
-				A22F5F80D5224B277933E17F99517597 /* crc32c.cc */,
-				86C9809F57BB3004FE0F6DADF3828238 /* db.h */,
-				6D282A48BAA083EB0E45B8379E112BFB /* db_impl.cc */,
-				94E109447057E66F9B85E5AEF018AE4F /* db_iter.cc */,
-				1A62E8843AAA00EFA5505DFEDE14BFB2 /* dbformat.cc */,
-				B7E11FFB3FD006A84A0781F6A8399D9A /* dumpfile.cc */,
-				83B53B1C3C66944A148F634B0744F13A /* dumpfile.h */,
-				8633C5C2742DC285735A21CF52A97FB4 /* env.cc */,
-				F8F7715AD5CDA7E971DCDDF76B9A09ED /* env.h */,
-				A88B996BE68151B0109B6400E80C3A07 /* env_posix.cc */,
-				81D12FA9BC3EAF4BDA9CFFD6B21E8B36 /* filename.cc */,
-				EFA7C5740115250AE102A3C430F1A3D1 /* filter_block.cc */,
-				9E0A060CF92D4BC004F23637C204A63B /* filter_policy.cc */,
-				EAEF38C7D83724BC0347204BEE56F5D0 /* filter_policy.h */,
-				070C947052E5996F921B4140C53DDA02 /* format.cc */,
-				817FF2F1E4C0C1783A22A161A70AF7F5 /* hash.cc */,
-				20F2FAB0D443B4524B7B30D0A8B61924 /* histogram.cc */,
-				27431FBFB0B3861FB8B7DF021F2AA1C2 /* iterator.cc */,
-				57759D7BC2D3D8A7F21654723865BC9E /* iterator.h */,
-				23935593F852070F71D95ADF4E555C6D /* leveldb_main.cc */,
-				B7498FDC52163AE9FAA517386575E2C2 /* log_reader.cc */,
-				4EF1449D53268400A9D241B152C1B512 /* log_writer.cc */,
-				F058A0933A79C99889A02FFC0CFC17FE /* logging.cc */,
-				5410CB5B7210527459657AB38912233A /* memtable.cc */,
-				257B14B0E0B56F3FB0E3C5D09963EF2D /* merger.cc */,
-				16346927C265BB36BA2984BCADDC3FE4 /* options.cc */,
-				7073A4C7BA66748DCAFAFCEE2860A354 /* options.h */,
-				8BC2E4977880933D8F633453D129B2DD /* port_posix.cc */,
-				E0AC9B419FFDFA0D7AF3CF590C0E37E3 /* repair.cc */,
-				DC8F5B3948CECA32EE4F1246BE3AC05F /* slice.h */,
-				F8A6747C80090B5FE0B14DC435359541 /* status.cc */,
-				9E4A96BCF7CDF6C694470D6812D4F34C /* status.h */,
-				30D2CAE1C5C2910A169F65D70C02345E /* table.cc */,
-				BED963E0565C8709D280E13C0A9D1F33 /* table.h */,
-				505F9262290D0989881A5105E0BEA1C1 /* table_builder.cc */,
-				6DF08BDDA2BB90732555D58F0F34BE2F /* table_builder.h */,
-				E4895BC543F2F0C77B8879D3D3A3D075 /* table_cache.cc */,
-				4CA8B078B6F5625CB35B5A503DE55695 /* testharness.cc */,
-				C819BF440E7F74FED678453F0DCCF63F /* testutil.cc */,
-				1C2273205A9B770B08BA2BA464D3A417 /* two_level_iterator.cc */,
-				C60D10EE95E3FFB1DE3BC7842C62B2D5 /* version_edit.cc */,
-				0A962D2A394416E45F7AB9C9B9E32945 /* version_set.cc */,
-				A42FE2E8F523FB734A8CD6EDD4D26F9E /* write_batch.cc */,
-				4FB361C468E12256274DFBEC4867CBA5 /* write_batch.h */,
-				629E0727A8D627401B0C3DEA442AED14 /* Support Files */,
-			);
-			name = "leveldb-library";
-			path = "leveldb-library";
-			sourceTree = "<group>";
-		};
-		1DF77B745E997D2028D0942924D42DF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB9F5B7507B7D380284C0FB2DF6DE1A0 /* Info.plist */,
-				0E93795EA73EBECD76A995AB6097EB00 /* nanopb.modulemap */,
-				C07BE7973C94DB1E83B46D67A8452324 /* nanopb.xcconfig */,
-				1387EE66D4ACD3FBBD68D7DC5A48886E /* nanopb-dummy.m */,
-				79228D4EBC8B3D820DDD564E84B0C8DA /* nanopb-prefix.pch */,
-				8AC8E20A4864B48522B0FF1E8E77B935 /* nanopb-umbrella.h */,
+				9BFF5AF552F897AAE9CE4E22B76E473B /* Info.plist */,
+				75C3240AE092077022752095E3D6701F /* leveldb-library.modulemap */,
+				7BAF249D4BFE05423CE35BE65FFB5C69 /* leveldb-library.xcconfig */,
+				877CD1605A7475108FF2235356E09DCB /* leveldb-library-dummy.m */,
+				80FBFD54D786F5293107973CC9ED929B /* leveldb-library-prefix.pch */,
+				9447820BCF08D58E728490926C4BA464 /* leveldb-library-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/nanopb";
+			path = "../Target Support Files/leveldb-library";
+			sourceTree = "<group>";
+		};
+		080B79525B9347292CCBCA8EDC71C29F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C00E703FE40DB104B5B50D985B404E69 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2733E2BF0EF0A36CA94BD9B11244B4CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C965A1D4034BBEE2D0530EE526025A3 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		301CCBF45AD33AD20C2A074EC2C67288 /* Pods-MAS Peer AssignmentUITests */ = {
@@ -439,33 +546,97 @@
 			path = "Target Support Files/Pods-MAS Peer AssignmentUITests";
 			sourceTree = "<group>";
 		};
-		36748C3CFCF52049CDC97AE2F4AC23A9 /* decode */ = {
+		35BDC8DCE970B7A18D79EBC07CC45519 /* FirebaseInstanceID */ = {
 			isa = PBXGroup;
 			children = (
+				2733E2BF0EF0A36CA94BD9B11244B4CF /* Frameworks */,
 			);
-			name = decode;
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
-		394E89B98B0E60AC97CFA738AC2E22EE /* Defines */ = {
+		3A9E2D341182006F4E4E592FAB00FF97 /* YoutubeKit */ = {
 			isa = PBXGroup;
 			children = (
-				B13770FC14037B4B77C929E6C01CCCD0 /* GTMDefines.h */,
+				BD48D66C72DC4A2B75A766C6670ABF5D /* ActivityInsertRequest.swift */,
+				C5F243A8E9FDB69E3A512F9AC2845251 /* ActivityList.swift */,
+				5914A551B1E5E6B5C392F5F623C05B9B /* ActivityListRequest.swift */,
+				34BE0244E458CA599FB8B8CBEFC4F8B9 /* ApiSession.swift */,
+				0F5C178A59692A995C41E049219869E7 /* BoolExtensions.swift */,
+				E20D18DA5951A508647D0E0B2E19F4F4 /* CaptionList.swift */,
+				417AFF3CD08F872B80B837CBD3F334F2 /* CaptionListRequest.swift */,
+				55843289C6CC10CFA6CBF051F8E270F9 /* ChannelList.swift */,
+				EDE6A13E3EB2C80A4E8A2AA37CD6E7E3 /* ChannelListRequest.swift */,
+				EFB7C9906F56AE7ADAC5D958549FE538 /* ChannelSectionsList.swift */,
+				418AC6EDC71C8775A7F256311C623225 /* ChannelSectionsListRequest.swift */,
+				DA72EDCC5A5A4BDBF30A25626A00CA46 /* CommentList.swift */,
+				680109A36FD7C5234C509EE2841661B0 /* CommentListRequest.swift */,
+				A20C3D030AABB307651A943FFC265B7E /* CommentModerationStatus.swift */,
+				FC089B7B3B292117958DFA38F6200044 /* CommentTextFormat.swift */,
+				B60061160F772031284C5132C14EDE0E /* CommentThreadsList.swift */,
+				2CAEF41377E7C18E9C7295B6CEF17022 /* CommentThreadsListRequest.swift */,
+				B59BD40A8B9A87169A964877780912D6 /* ContentDetails.swift */,
+				2FAA4C9917DEFC06C7AD8351E21B9A9C /* DictionaryExtensions.swift */,
+				E1D458485702E14CE5AB854A8B02887F /* Filter.swift */,
+				35330ECBAB8E753FF9B8EB9D2C23FF57 /* GuideCategoriesList.swift */,
+				D557111C02F1AEA094F35ADF61043F14 /* GuideCategoriesListRequest.swift */,
+				4E4A6A2ABC2CCAD7ED57B25DFA882923 /* HTTPMethod.swift */,
+				0F109F854953F2C7CA4604DCD70F928A /* I18nLanguagesList.swift */,
+				5DFC449D533B32D3586E6AB7284B578B /* I18nLanguagesListRequest.swift */,
+				A23B851A9C2C12D5BC945AD328CDD2B9 /* I18nRegionsList.swift */,
+				5CDA0D06716B96799C1AB7A61B86FD49 /* I18nRegionsListRequest.swift */,
+				9EAC124D5233561979B15CFAD022751B /* Localized.swift */,
+				4A7BAB91C5BAB490B3E95AAB9C40952B /* MyRating.swift */,
+				1B42AF079132C6C2B6C45E8553A86284 /* PageInfo.swift */,
+				FA91FB82CA6CFEC0AE9CFCC1D02C961A /* Part.swift */,
+				EF7C570ECEA7F988FA3E9B6F58F06102 /* player.html */,
+				69C294E0E08D9A58BFBD9C2BEE0DE813 /* PlaylistItemsList.swift */,
+				3AAA2FFEC378A48E4952F77324F8DE78 /* PlaylistItemsListRequest.swift */,
+				9BE08A7B067CDE33C9E99A7B1E651D32 /* PlaylistsList.swift */,
+				AAA7C7577387E3988E9FF3E817CB2352 /* PlaylistsListRequest.swift */,
+				3AEF7C8DE6562850EF2BD33EA4F71B7F /* QueryParameterable.swift */,
+				0944CB1F281F961D7C722001381FEB53 /* Requestable.swift */,
+				C93A6972D1A2BD826A2B2A55568855DE /* RequestableExtensions.swift */,
+				D7E2AA041F61D2AEDF931F43FA23C662 /* RequestError.swift */,
+				36626BF6085E3DB79B6E2F47793711B6 /* ResourceID.swift */,
+				957E895A6BA8F089DA30F5F3C01651E8 /* ResponseError.swift */,
+				A9B62F35F44DFE8A2D88DD2C2900F661 /* Result.swift */,
+				FB5F7749179ACE934C64CCD949705B1A /* ResultOrder.swift */,
+				E0A887F030F36927FF9934A6ADF2A5D0 /* SearchEventType.swift */,
+				B1E7186304821174E84431BC0CEDCE8B /* SearchList.swift */,
+				A78F63856BB369A8B43B8E775B502D54 /* SearchListRequest.swift */,
+				0A7663F3F677563B5046261814DB7C0F /* SearchResourceType.swift */,
+				5FCAC0FEF1ABD0E4FC21503667C26B95 /* SearchSafeMode.swift */,
+				894FF4B5A37EFE8213C89899B5AD1802 /* SearchVideoCaption.swift */,
+				164EB7AE889B6243922CE0D674EC69F5 /* SearchVideoDefinition.swift */,
+				849015372B7715F317B0CEECE0A84847 /* SearchVideoDimension.swift */,
+				CC8167DDDB8F372A33F0ABDE9BB28D80 /* SearchVideoDuration.swift */,
+				1C583879EC2728CA82F44564C93F59FF /* SearchVideoEmbeddable.swift */,
+				68B85C14781F8050412206667ADB61E5 /* SearchVideoLicense.swift */,
+				21FBF34A58F5A786E635C4856133C624 /* SearchVideoSyndicated.swift */,
+				9CFA7AE0B461A55C8813DB51CE46BE00 /* SearchVideoType.swift */,
+				09239D39DD4A13325B03DB4430129E03 /* Snippet.swift */,
+				59363AA7E641D68E951CEC93280A61BF /* Statistics.swift */,
+				FD26B17F44841EF9A255037B435E8FA3 /* SubscriptionsList.swift */,
+				46E3C02D4C2FBEA09298C7E158F79DEB /* SubscriptionsListRequest.swift */,
+				7B0E0124599963F18C80B029473CB5B1 /* Thumbnail.swift */,
+				0B90C2F72CFD213568F7C5565B310457 /* VideoAbuseReportReasonsList.swift */,
+				6672E042C92A6F67A866DF941ADF0790 /* VideoAbuseReportReasonsListRequest.swift */,
+				7119BF72C9C1EA22D8E788F77F22346C /* VideoCategoriesList.swift */,
+				E164A95D7982F37CAF3D5E5A689EDFD8 /* VideoCategory.swift */,
+				772AF3BD59322D3C8346BE4F87887F86 /* VideoCategoryListRequest.swift */,
+				72966EA49FA74344985B807579523441 /* VideoList.swift */,
+				D2683326C148765243E7D74962A23C9A /* VideoListRequest.swift */,
+				007588143BAB15401539F1D173020CDE /* YoutubeDataAPI.swift */,
+				C426640399F1A080D8A14D370B1BE646 /* YoutubeKit.swift */,
+				EFE4D48B1812093A17A1A1790D0381B4 /* YTSwiftyConstants.swift */,
+				ACF18E327F8D9F357C23F32BA2ECC941 /* YTSwiftyPlayer.swift */,
+				FC20AD2A61431E200F45EBE1C8292E93 /* YTSwiftyPlayerDelegate.swift */,
+				88AA365B6221E00F4A16D7F29C953BDC /* Resources */,
+				7F9B3BCFECE0F925DC7E2A27AB3C9809 /* Support Files */,
 			);
-			name = Defines;
-			sourceTree = "<group>";
-		};
-		3AC5CB635F4DAAE4F7D80726152BCBC2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				74CB63B43AF5EC456484BB3D8F860961 /* GoogleToolboxForMac.modulemap */,
-				D2B3367F99729FF9D0ABC67176E7C9E4 /* GoogleToolboxForMac.xcconfig */,
-				7AA73AE1AD1E741D2DFF43908722397F /* GoogleToolboxForMac-dummy.m */,
-				67615B741E6BE89F7EF44EE21E98C3F2 /* GoogleToolboxForMac-prefix.pch */,
-				D66A82950FFDA0BD1EAC217826075F35 /* GoogleToolboxForMac-umbrella.h */,
-				ABD602F0F43685F302C2BB2A92BF3C9F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GoogleToolboxForMac";
+			name = YoutubeKit;
+			path = YoutubeKit;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -476,51 +647,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		45E9A4EEFD40F73789BE21B8A5E4F193 /* FirebaseCore */ = {
+		53083FA343B2E325FF4C1A9286B2DE95 /* NSData+zlib */ = {
 			isa = PBXGroup;
 			children = (
-				BA93D4FEE68F33F4835EBA10737834A9 /* Frameworks */,
+				0319F119F529846584A9FA73578C6950 /* GTMNSData+zlib.h */,
+				0985D83CFAF4368ED5A928B36FDE7843 /* GTMNSData+zlib.m */,
 			);
-			name = FirebaseCore;
-			path = FirebaseCore;
-			sourceTree = "<group>";
-		};
-		4894A299EECAF6F96C69F5B99DF14ABE /* FirebaseAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				684B6204341E0397E1EA8297192AB9DA /* Frameworks */,
-			);
-			name = FirebaseAnalytics;
-			path = FirebaseAnalytics;
-			sourceTree = "<group>";
-		};
-		5230BB44AA8AA6FD12AE3383983D5949 /* encode */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = encode;
-			sourceTree = "<group>";
-		};
-		5E75284404618B6B86515AA3C50B848F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C4EDFBBD563D20F1DF1F5B12B0F05E28 /* FirebaseInstanceID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		629E0727A8D627401B0C3DEA442AED14 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				165D00F808FEA0531F912006C08278EA /* Info.plist */,
-				2E3150DE11682708CA6C0D8DEB4FB402 /* leveldb-library.modulemap */,
-				80A40B7B49E189457B478F2B19F03647 /* leveldb-library.xcconfig */,
-				65AFA624F437556893F6B70D09DD4606 /* leveldb-library-dummy.m */,
-				A41D2B248E33681665037373DDFB05DB /* leveldb-library-prefix.pch */,
-				E8EE35D0AD04FDA1242A88F82F193178 /* leveldb-library-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/leveldb-library";
+			name = "NSData+zlib";
 			sourceTree = "<group>";
 		};
 		66054E7166FC2DA7C9435222A7164EE2 /* Pods-MAS Peer Assignment */ = {
@@ -541,20 +674,87 @@
 			path = "Target Support Files/Pods-MAS Peer Assignment";
 			sourceTree = "<group>";
 		};
-		684B6204341E0397E1EA8297192AB9DA /* Frameworks */ = {
+		7C67B0B4F17A4840AC3468AD3F4C67AC /* leveldb-library */ = {
 			isa = PBXGroup;
 			children = (
-				F9802E6B737F7DE5B49BE942EF237ED7 /* FirebaseAnalytics.framework */,
+				FF3C249A45138FF49D96C9FB5899A32B /* arena.cc */,
+				C8276F571AE233C16B5831DBD79EFBC9 /* block.cc */,
+				84020A6DCAF3F2CF9EDDD6DC773032A2 /* block_builder.cc */,
+				E595BBABEC82A32F29434DCF06A1CB3E /* bloom.cc */,
+				0835F7260797C5A8FB39C0FFD88635BE /* builder.cc */,
+				094BA87F580FCEED0D11B781E51FBE43 /* c.cc */,
+				8727E3C8E789A3D0FB76C9FEC6745877 /* c.h */,
+				EA8B31008782B182D46CACFBDCEDE2D8 /* cache.cc */,
+				9C43EC7D7FF8187C6064D95F9AB1D41B /* cache.h */,
+				A0330F88958BD2D3767B5F99E19DB5DA /* coding.cc */,
+				4E1724826D32321D17884A7201FC0722 /* comparator.cc */,
+				1CCDD53948DD13B1CC323E44185EB0D8 /* comparator.h */,
+				6CB50AB1544E95AF1C0FB6CE428CD581 /* crc32c.cc */,
+				38FE65BB59B592177B807445B7B419FD /* db.h */,
+				708105B4573F764D4C20E9409DEEF8C9 /* db_impl.cc */,
+				93E55DE6BE1F5BC7CAB6A332230AD594 /* db_iter.cc */,
+				5E35F57EEE4C94005B9FE73E2A2FABF9 /* dbformat.cc */,
+				4C7AED07D7E68CE4DE0928879ECAF9AB /* dumpfile.cc */,
+				DA1B795FA3FFFB316B1B32FBEAD246BB /* dumpfile.h */,
+				B5688062F57D3CBB9924FF0E3FA8D21E /* env.cc */,
+				77334D6E50C5F2901908E7C5CF9F265A /* env.h */,
+				FF136FC6527CBAEFE85993DC16B69460 /* env_posix.cc */,
+				3A757418B01E6160DD04E9EB016A2F6F /* filename.cc */,
+				1AB41E966379F46BBC4A7734401B34A9 /* filter_block.cc */,
+				1E07236A5B835500DA90082A11602515 /* filter_policy.cc */,
+				65A5FE12655CDAB7694E80E43C65005E /* filter_policy.h */,
+				40BE3E7F8DD03B0EFB0C9BBFA9D40F11 /* format.cc */,
+				7F4FF9E432024753765CBC7ED9571448 /* hash.cc */,
+				69571A520B9FD1F93FE7121EA2EBB7B8 /* histogram.cc */,
+				6E52AA486E8EAA737531EDC1309DD585 /* iterator.cc */,
+				CC3C78D5A9B4FA17BA41424449DC57CD /* iterator.h */,
+				CF443B8C489F5B0F1B4E2B1848511FF6 /* leveldb_main.cc */,
+				207A5CEF779DC83BB765D71C5AA04FB9 /* log_reader.cc */,
+				E47E8DE9A744ED442769C1E5610D3F5B /* log_writer.cc */,
+				FDCB7B2DD937608A77895698B64D298F /* logging.cc */,
+				3A424B6DF19C2778EB16A0852C0BB2FD /* memtable.cc */,
+				3DB79FBB7F7BDE0266FB0551F83F0A7D /* merger.cc */,
+				71F17736208F990847BDCFCA34801EBA /* options.cc */,
+				7B5269148A37A5FBAE4F362EB5224D71 /* options.h */,
+				22C906A89289096B7257EB211F95ACE5 /* port_posix.cc */,
+				BECD5A8B3556D4A49F9B8C3634E19312 /* repair.cc */,
+				A721197A6F209A6FA677B923559F6129 /* slice.h */,
+				9D4C911FEA8285412750B27F14A7B2EA /* status.cc */,
+				A985033C1432DDE69CF528C7EA0DAC89 /* status.h */,
+				AB5A393BD6E3B2E579DD51C1566B4C5F /* table.cc */,
+				D4602403C94DFB26B1F9DC408385A5C8 /* table.h */,
+				9A528EC3E7E029F685E39D4C796AE643 /* table_builder.cc */,
+				B588DCB40C7C862721EF50D9143B48FE /* table_builder.h */,
+				1A66B6D3DED8FAFAD8546C6499027221 /* table_cache.cc */,
+				7CEBB757A77D211DA2C5D2629C9CE936 /* testharness.cc */,
+				0BEC75523A661E8BB5612700EE8FBE0A /* testutil.cc */,
+				0B60A685E0D8D1157A15804D88A10DB9 /* two_level_iterator.cc */,
+				F580DD98F0FBFC319DE89AD744677FB5 /* version_edit.cc */,
+				811BCEB728B7016F350319BA00813089 /* version_set.cc */,
+				D7B6A953EA154951C95C4C0E568DE867 /* write_batch.cc */,
+				AE32013B150E236AC7F06928847C146F /* write_batch.h */,
+				04CF76EECE9F4506DF506FA6DFF3182D /* Support Files */,
 			);
-			name = Frameworks;
+			name = "leveldb-library";
+			path = "leveldb-library";
 			sourceTree = "<group>";
 		};
-		69427D90F07E10AEDE9B216F9E434EED /* Frameworks */ = {
+		7D13A1BC821AE96DA36CC6F27AC79304 /* nanopb */ = {
 			isa = PBXGroup;
 			children = (
-				8ABA185AA39C98CE7DA9609BC566F45E /* FirebaseDatabase.framework */,
+				3D2DB6ABDFA1008CFB27E28037940E90 /* pb.h */,
+				E20889E2F0A6E8B590FC7BA7308F112B /* pb_common.c */,
+				0BD431E000CF2CAB5BD147B6CD2A6E7A /* pb_common.h */,
+				9878DD894F8A56341F1E00F3648E5423 /* pb_decode.c */,
+				73D287649FC7BF23B548FD3822660DAE /* pb_decode.h */,
+				70AC6BA41D6E5CDFE4EC6B8C84430FAB /* pb_encode.c */,
+				440D5FAA7F805C74DD133394B37E8AAA /* pb_encode.h */,
+				85D8597C1BA172D4FD70CB8103DF3888 /* decode */,
+				D4BDB5EFBEBE8EDD89D22E5C8FF80319 /* encode */,
+				D03D63E96C90926F5AC8EA71B3A3A100 /* Support Files */,
 			);
-			name = Frameworks;
+			name = nanopb;
+			path = nanopb;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -562,74 +762,121 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				88A9DF5F593C561367195147B0D14A46 /* Pods */,
-				7E1463295768F5D7FB68867ACE70350C /* Products */,
+				F61728D281E7A0A6E842924CE9D6BA2C /* Pods */,
+				C3C61646D24B03CED29CD8F1A46FDAF7 /* Products */,
 				FFD959E50AD75A9434245AB68E01B05E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E1463295768F5D7FB68867ACE70350C /* Products */ = {
+		7DCF4A1E181A2BC1F4D8E44E0F0F30AE /* FirebaseDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				869C821C1C7338A62BDCC2EAB935F6AB /* GoogleToolboxForMac.framework */,
-				7A2973773392AF08ED1FDBA0D70E9273 /* leveldb.framework */,
-				D47C7ABFA4F09A433416E6D08AB26CCD /* nanopb.framework */,
-				21EBE639A053326B0AEDFE7F47773EA5 /* Pods_MAS_Peer_Assignment.framework */,
-				4B5C5393C8516895EA716DEE53549977 /* Pods_MAS_Peer_AssignmentTests.framework */,
-				CE0373753D69839E4DD310AB69EFACFD /* Pods_MAS_Peer_AssignmentUITests.framework */,
+				C4B037A93E55940D4D8948E56AA5EC6C /* Frameworks */,
 			);
-			name = Products;
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
 			sourceTree = "<group>";
 		};
-		88A9DF5F593C561367195147B0D14A46 /* Pods */ = {
+		7F9B3BCFECE0F925DC7E2A27AB3C9809 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BA9AFB7292EB111F67E75621501BEBCE /* Firebase */,
-				4894A299EECAF6F96C69F5B99DF14ABE /* FirebaseAnalytics */,
-				45E9A4EEFD40F73789BE21B8A5E4F193 /* FirebaseCore */,
-				FA274DD55FD73FCDDBAC4DDCB21CE319 /* FirebaseDatabase */,
-				F6371EE094DDB0CBDB92909ACF778ADC /* FirebaseInstanceID */,
-				978FBBCE37EE2F4AC5388266DF67A415 /* GoogleToolboxForMac */,
-				0F98B808F4F6E99743BAA699EE9CEA83 /* leveldb-library */,
-				070E2558C08D69172ECA28CDDA403F60 /* nanopb */,
+				EC02B11F9074B1B9242C7663A7E07F08 /* Info.plist */,
+				2803BB42BDE828E38B80FFF2116BC29C /* YoutubeKit.modulemap */,
+				26D87E7D6CF6351843FAC2D5A002BB12 /* YoutubeKit.xcconfig */,
+				A9A21AFE0791C65E35663060F83A26DE /* YoutubeKit-dummy.m */,
+				7B1F43D55A81E11333C632A9D0C88325 /* YoutubeKit-prefix.pch */,
+				8D40FDE94C35C8D2E0CB210469D9D294 /* YoutubeKit-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/YoutubeKit";
 			sourceTree = "<group>";
 		};
-		978FBBCE37EE2F4AC5388266DF67A415 /* GoogleToolboxForMac */ = {
+		8402876711E39744E0A8347D45B73B97 /* FirebaseCore */ = {
 			isa = PBXGroup;
 			children = (
-				394E89B98B0E60AC97CFA738AC2E22EE /* Defines */,
-				04E95DEA48ED85CCF6C07387506B8929 /* NSData+zlib */,
-				3AC5CB635F4DAAE4F7D80726152BCBC2 /* Support Files */,
+				B99F59F75394500F896CE73B4111D6C9 /* Frameworks */,
 			);
-			name = GoogleToolboxForMac;
-			path = GoogleToolboxForMac;
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
-		BA93D4FEE68F33F4835EBA10737834A9 /* Frameworks */ = {
+		85D8597C1BA172D4FD70CB8103DF3888 /* decode */ = {
 			isa = PBXGroup;
 			children = (
-				6A8E2630777F61F7A9DF7F5120C64FE2 /* FirebaseCore.framework */,
-				BF07C0958BFC2CB7F77E2DA874BB3D45 /* FirebaseCoreDiagnostics.framework */,
-				DAA72277B49819EA3A6EC56EBB5AC9EA /* FirebaseNanoPB.framework */,
+			);
+			name = decode;
+			sourceTree = "<group>";
+		};
+		88AA365B6221E00F4A16D7F29C953BDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B99F59F75394500F896CE73B4111D6C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E86859E08556C3B9332A2D8A43F49991 /* FirebaseCore.framework */,
+				82BCBCD7B9F13FBB93E25835F6CF320D /* FirebaseCoreDiagnostics.framework */,
+				8DCB5EA4C866C88ED512A7F68F0DE6A8 /* FirebaseNanoPB.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA9AFB7292EB111F67E75621501BEBCE /* Firebase */ = {
+		BA778E825BD0AB8222F7012AD30E4E9B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D8375C3BED3AA19DC4071922847D1A26 /* Core */,
+				3792FCA0CA7E7DB20A3D14B69D579497 /* FirebaseAnalytics.framework */,
 			);
-			name = Firebase;
-			path = Firebase;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00E703FE40DB104B5B50D985B404E69 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C94016EA492066CD521E99A514BDD52 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C2250943FA61C7800BAE680445730482 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				030A4CC82648DD594B5CBC75D2038332 /* Defines */,
+				53083FA343B2E325FF4C1A9286B2DE95 /* NSData+zlib */,
+				FD540D65C532CC6EDD901EBEF7703CA4 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		C3C61646D24B03CED29CD8F1A46FDAF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F99ACAB7499C78CAFB8BD00FA65CB4 /* GoogleToolboxForMac.framework */,
+				70F96275CF27B47CE22633E3FF20ADD8 /* leveldb.framework */,
+				B99D701628DE819AB65BAABE7B97FD60 /* nanopb.framework */,
+				4691E4D60725D074793B9749FD594037 /* Pods_MAS_Peer_Assignment.framework */,
+				7947A4E7C6D2D2C06CD92110FAFCF7BD /* Pods_MAS_Peer_AssignmentTests.framework */,
+				8717F4B0FB5FEA0004D970EF1B560B24 /* Pods_MAS_Peer_AssignmentUITests.framework */,
+				25F0B16FA3B67964E1D2C0465E61AAFE /* YoutubeKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4B037A93E55940D4D8948E56AA5EC6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E8956EE1905574DE961987B22020C3 /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -652,30 +899,64 @@
 			path = "Target Support Files/Pods-MAS Peer AssignmentTests";
 			sourceTree = "<group>";
 		};
-		D8375C3BED3AA19DC4071922847D1A26 /* Core */ = {
+		D03D63E96C90926F5AC8EA71B3A3A100 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				39EDA999AE6E95BC47EDEC6E44D5FCDF /* Firebase.h */,
+				C9FD6B359108B228AA149ECD7A5D0AF6 /* Info.plist */,
+				47F88AF4CE83779D170D78CB056BACB6 /* nanopb.modulemap */,
+				C50DD6B1FCCD83CBF606A5E5AEF1B6DC /* nanopb.xcconfig */,
+				F882C2F76E5FC99FD127A21262B50D00 /* nanopb-dummy.m */,
+				AE333B99DDA7EEF4EF838C2EBA18C4EE /* nanopb-prefix.pch */,
+				66ECC5AB90FE882AA5711CB5140DF547 /* nanopb-umbrella.h */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "../Target Support Files/nanopb";
 			sourceTree = "<group>";
 		};
-		F6371EE094DDB0CBDB92909ACF778ADC /* FirebaseInstanceID */ = {
+		D4BDB5EFBEBE8EDD89D22E5C8FF80319 /* encode */ = {
 			isa = PBXGroup;
 			children = (
-				5E75284404618B6B86515AA3C50B848F /* Frameworks */,
 			);
-			name = FirebaseInstanceID;
-			path = FirebaseInstanceID;
+			name = encode;
 			sourceTree = "<group>";
 		};
-		FA274DD55FD73FCDDBAC4DDCB21CE319 /* FirebaseDatabase */ = {
+		F25B4C6FDE7DDBCDB7C5BC14517E67FD /* FirebaseAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				69427D90F07E10AEDE9B216F9E434EED /* Frameworks */,
+				BA778E825BD0AB8222F7012AD30E4E9B /* Frameworks */,
 			);
-			name = FirebaseDatabase;
-			path = FirebaseDatabase;
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		F61728D281E7A0A6E842924CE9D6BA2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				080B79525B9347292CCBCA8EDC71C29F /* Firebase */,
+				F25B4C6FDE7DDBCDB7C5BC14517E67FD /* FirebaseAnalytics */,
+				8402876711E39744E0A8347D45B73B97 /* FirebaseCore */,
+				7DCF4A1E181A2BC1F4D8E44E0F0F30AE /* FirebaseDatabase */,
+				35BDC8DCE970B7A18D79EBC07CC45519 /* FirebaseInstanceID */,
+				C2250943FA61C7800BAE680445730482 /* GoogleToolboxForMac */,
+				7C67B0B4F17A4840AC3468AD3F4C67AC /* leveldb-library */,
+				7D13A1BC821AE96DA36CC6F27AC79304 /* nanopb */,
+				3A9E2D341182006F4E4E592FAB00FF97 /* YoutubeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD540D65C532CC6EDD901EBEF7703CA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				816D6A4A82EB596EF920DF85BD2B9462 /* GoogleToolboxForMac.modulemap */,
+				C992451E2E14DC6B6DF3A2849F74D77A /* GoogleToolboxForMac.xcconfig */,
+				0EC2F66F619EACA5A8B88950B3B664A1 /* GoogleToolboxForMac-dummy.m */,
+				4E3B09F560D60C81BE84A70F91C0B47A /* GoogleToolboxForMac-prefix.pch */,
+				5BA7E039A77EEE9981DA545A32E80957 /* GoogleToolboxForMac-umbrella.h */,
+				EAEA3893A16A527EEF28BFC434C181D1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
 			sourceTree = "<group>";
 		};
 		FFD959E50AD75A9434245AB68E01B05E /* Targets Support Files */ = {
@@ -733,6 +1014,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57A3B45082B5AAB0C9FB3794672E3815 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F470ECF6F38C61370F6E99396D7FA0AC /* YoutubeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		76FABFDF1B7D8CA2E6B59F2D7C34314C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -751,11 +1040,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F5FE818DC8ECD7C189470F995B89024 /* Headers */ = {
+		CA88AE13B96315492503D59267F867F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEDB8AEF9A3CFA4F1B44ABDFB65901A /* Pods-MAS Peer Assignment-umbrella.h in Headers */,
+				BAFA833155C44CD794BA3D9E02F1304C /* Pods-MAS Peer Assignment-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,7 +1067,7 @@
 			);
 			name = "Pods-MAS Peer AssignmentUITests";
 			productName = "Pods-MAS Peer AssignmentUITests";
-			productReference = CE0373753D69839E4DD310AB69EFACFD /* Pods_MAS_Peer_AssignmentUITests.framework */;
+			productReference = 8717F4B0FB5FEA0004D970EF1B560B24 /* Pods_MAS_Peer_AssignmentUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2812D83BD310A6FEC66A5C08B5511233 /* Pods-MAS Peer AssignmentTests */ = {
@@ -797,7 +1086,7 @@
 			);
 			name = "Pods-MAS Peer AssignmentTests";
 			productName = "Pods-MAS Peer AssignmentTests";
-			productReference = 4B5C5393C8516895EA716DEE53549977 /* Pods_MAS_Peer_AssignmentTests.framework */;
+			productReference = 7947A4E7C6D2D2C06CD92110FAFCF7BD /* Pods_MAS_Peer_AssignmentTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		435FC0056BB50E0BBD153B5E1E6E6D53 /* GoogleToolboxForMac */ = {
@@ -815,28 +1104,29 @@
 			);
 			name = GoogleToolboxForMac;
 			productName = GoogleToolboxForMac;
-			productReference = 869C821C1C7338A62BDCC2EAB935F6AB /* GoogleToolboxForMac.framework */;
+			productReference = E2F99ACAB7499C78CAFB8BD00FA65CB4 /* GoogleToolboxForMac.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		60C61D78B485581FA67AA7A2C9756E46 /* Pods-MAS Peer Assignment */ = {
+		5F67CA49CF059F9C99D12B558A48A558 /* Pods-MAS Peer Assignment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6A930D2E3921F73BFAB015D78C7FAB0 /* Build configuration list for PBXNativeTarget "Pods-MAS Peer Assignment" */;
+			buildConfigurationList = 57297E36C071988E37A5633A8C54ED5B /* Build configuration list for PBXNativeTarget "Pods-MAS Peer Assignment" */;
 			buildPhases = (
-				9F5FE818DC8ECD7C189470F995B89024 /* Headers */,
-				92D5E7B3D847F8D4D3DD9DC87C602DED /* Sources */,
-				30F51E122F41C2B69A5FDE58AB0FDD9C /* Frameworks */,
-				EBACB0E38817F2920D09B486454ED3AD /* Resources */,
+				CA88AE13B96315492503D59267F867F6 /* Headers */,
+				11D27D3D69618587D72C4C4148C42B0F /* Sources */,
+				F6F575FB8E7E93BCEDD71993892785F3 /* Frameworks */,
+				4E2FC0BD9804F4A01DBA75BC74BFE767 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				03209C3DA927D6B0D96D8A20C94B924A /* PBXTargetDependency */,
-				9219B21535BDD80B223F30F6EC005C73 /* PBXTargetDependency */,
-				38F4ADE08FE7B50E36EC628141FC9725 /* PBXTargetDependency */,
+				89BCA5A8E89EFEABBCA34B72F1A262EB /* PBXTargetDependency */,
+				C008D0707AC2A0F90FCDFD546BF1C713 /* PBXTargetDependency */,
+				0F3A06DF1BEC1D36422F21ACFFF1CCE9 /* PBXTargetDependency */,
+				B7186DB8C0638020343B11E6B6E35279 /* PBXTargetDependency */,
 			);
 			name = "Pods-MAS Peer Assignment";
 			productName = "Pods-MAS Peer Assignment";
-			productReference = 21EBE639A053326B0AEDFE7F47773EA5 /* Pods_MAS_Peer_Assignment.framework */;
+			productReference = 4691E4D60725D074793B9749FD594037 /* Pods_MAS_Peer_Assignment.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8364BB258018143B83798DE31C13546D /* nanopb */ = {
@@ -854,7 +1144,7 @@
 			);
 			name = nanopb;
 			productName = nanopb;
-			productReference = D47C7ABFA4F09A433416E6D08AB26CCD /* nanopb.framework */;
+			productReference = B99D701628DE819AB65BAABE7B97FD60 /* nanopb.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		97156FFAFF3C3C1CA4D0DB2811478C8E /* leveldb-library */ = {
@@ -872,7 +1162,25 @@
 			);
 			name = "leveldb-library";
 			productName = "leveldb-library";
-			productReference = 7A2973773392AF08ED1FDBA0D70E9273 /* leveldb.framework */;
+			productReference = 70F96275CF27B47CE22633E3FF20ADD8 /* leveldb.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B10DDE57A725992DCC4A3A73DFB03CD3 /* YoutubeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A033419E16A1AEF47AA63F8F2DFD4D26 /* Build configuration list for PBXNativeTarget "YoutubeKit" */;
+			buildPhases = (
+				57A3B45082B5AAB0C9FB3794672E3815 /* Headers */,
+				4FFD7D59AD6A4AA48159C60585ED8474 /* Sources */,
+				BA701759367A3F78012024BB795B48E2 /* Frameworks */,
+				F0C2B55D5FD9453A4DD02B743944413F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeKit;
+			productName = YoutubeKit;
+			productReference = 25F0B16FA3B67964E1D2C0465E61AAFE /* YoutubeKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -892,22 +1200,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7E1463295768F5D7FB68867ACE70350C /* Products */;
+			productRefGroup = C3C61646D24B03CED29CD8F1A46FDAF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				435FC0056BB50E0BBD153B5E1E6E6D53 /* GoogleToolboxForMac */,
 				97156FFAFF3C3C1CA4D0DB2811478C8E /* leveldb-library */,
 				8364BB258018143B83798DE31C13546D /* nanopb */,
-				60C61D78B485581FA67AA7A2C9756E46 /* Pods-MAS Peer Assignment */,
+				5F67CA49CF059F9C99D12B558A48A558 /* Pods-MAS Peer Assignment */,
 				2812D83BD310A6FEC66A5C08B5511233 /* Pods-MAS Peer AssignmentTests */,
 				16CE766EC697FA520DA38DD3167DD37A /* Pods-MAS Peer AssignmentUITests */,
+				B10DDE57A725992DCC4A3A73DFB03CD3 /* YoutubeKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		12B24D7F25B1E7D19C2FEF74E5545C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E2FC0BD9804F4A01DBA75BC74BFE767 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -928,10 +1244,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBACB0E38817F2920D09B486454ED3AD /* Resources */ = {
+		F0C2B55D5FD9453A4DD02B743944413F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F04C543279CB81F54E79102E74D05 /* player.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,6 +1269,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		11D27D3D69618587D72C4C4148C42B0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95D9CAE27CFFEB5DF259F946CD0499C /* Pods-MAS Peer Assignment-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12D3F587AEF7D8BD85FB723377576392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1013,6 +1338,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4FFD7D59AD6A4AA48159C60585ED8474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799F210DC4DA5C8189C63752EF3BD070 /* ActivityInsertRequest.swift in Sources */,
+				696F88AF243B57B4EA6014F2777150B5 /* ActivityList.swift in Sources */,
+				9E208DB5DB364376411421A9B03D06D1 /* ActivityListRequest.swift in Sources */,
+				BF682981952510B5112907D8B9CFC363 /* ApiSession.swift in Sources */,
+				581BA8A16425AD8EA5C3CF63B47F7F75 /* BoolExtensions.swift in Sources */,
+				D3767DCEB8309F47E7B7F9A38BD88203 /* CaptionList.swift in Sources */,
+				D3FE57650410EBDE033549579E01CC31 /* CaptionListRequest.swift in Sources */,
+				92BF6E5F891B3B50C4A7DE4BCD043F2A /* ChannelList.swift in Sources */,
+				82C01BE33C028D29F1F015089A0EABBC /* ChannelListRequest.swift in Sources */,
+				64033FD96207B66AF0D9F4543BA9C2A6 /* ChannelSectionsList.swift in Sources */,
+				D808C429BF7215F55C6081180AE19763 /* ChannelSectionsListRequest.swift in Sources */,
+				8DCDEEB66B462FDDD9F0521238FF02E6 /* CommentList.swift in Sources */,
+				857EABB9CE7DFABC299C3F7C0595EF87 /* CommentListRequest.swift in Sources */,
+				B1766FF1778FB5547C3DB9483C089AE3 /* CommentModerationStatus.swift in Sources */,
+				020AD5811C833728BAD7034D456D5DB2 /* CommentTextFormat.swift in Sources */,
+				2DFB0C3039FB199CDE08E1B4DB450DB7 /* CommentThreadsList.swift in Sources */,
+				039831AEDB9C2FDFC907639CD200378A /* CommentThreadsListRequest.swift in Sources */,
+				82FDF64FA252DEA714A0955E2D9607F5 /* ContentDetails.swift in Sources */,
+				EFE0CB72BEEAC69D7C5E7400694C7542 /* DictionaryExtensions.swift in Sources */,
+				166AC77E378C5C895EA072A17DC738AA /* Filter.swift in Sources */,
+				D2F2E6A2406F057FD8F9241F5D5BF535 /* GuideCategoriesList.swift in Sources */,
+				0F6E4A75C7C2557F9DD09FFB8CE3F685 /* GuideCategoriesListRequest.swift in Sources */,
+				84039746F1751F8729E9C88481647FCE /* HTTPMethod.swift in Sources */,
+				FB206BDF4A17C9DB4D990C192B6BA3AE /* I18nLanguagesList.swift in Sources */,
+				A481B66B3C3663AB6CD048D6F898BC00 /* I18nLanguagesListRequest.swift in Sources */,
+				74AA2034AE4919A268B19118109A6D03 /* I18nRegionsList.swift in Sources */,
+				6D7F14B319D269C51616F47A7EA554FA /* I18nRegionsListRequest.swift in Sources */,
+				6854571DD322ADE3E0015F5726765D99 /* Localized.swift in Sources */,
+				351519F6866EC0C6922F430B1C00FF7C /* MyRating.swift in Sources */,
+				7E292CF9D497D71BC4B3A394935AEEA8 /* PageInfo.swift in Sources */,
+				EACB76607E778C92D80A95DCACDA299F /* Part.swift in Sources */,
+				3ABB7A4DAEED7FE123ADB2A3AE007800 /* player.html in Sources */,
+				E240DD31C6B6591E02F226EFCDBA441F /* PlaylistItemsList.swift in Sources */,
+				1C00B3814FE998D3D7964501A271DD3C /* PlaylistItemsListRequest.swift in Sources */,
+				1494165CF9AA1F03CDC3D0C10BF51E12 /* PlaylistsList.swift in Sources */,
+				EBCD339C3048FB25D344217D73CF2060 /* PlaylistsListRequest.swift in Sources */,
+				1F6E7BFDAF7DD9CD4C20F8A34C88B1D2 /* QueryParameterable.swift in Sources */,
+				4DA14B422AD7D38ADEB41D0B968B6BCB /* Requestable.swift in Sources */,
+				FAC35BE933C08EC75C584E445A2C21CB /* RequestableExtensions.swift in Sources */,
+				43F4C573C4EA79B8783C8867BFF713AB /* RequestError.swift in Sources */,
+				C3A97099D4408331E2E955C3FC692DBD /* ResourceID.swift in Sources */,
+				38D52FE56F487F141B6D901CEB1DA304 /* ResponseError.swift in Sources */,
+				C2E24536738F189753B28CF0B6719CAE /* Result.swift in Sources */,
+				D9B303AE1E555CDB1B67BB1F4106362F /* ResultOrder.swift in Sources */,
+				4E399D07CFCCF9B88D4F8A16E9681065 /* SearchEventType.swift in Sources */,
+				CF715B18F641AB8BD1D728C023C5780D /* SearchList.swift in Sources */,
+				415FA1CC31DC2F2FFF5D4A748FBD70DF /* SearchListRequest.swift in Sources */,
+				98B60A84F37B5D987B8E043A68199B2A /* SearchResourceType.swift in Sources */,
+				C6BB6A2D2B75382A04E1280B75D6E473 /* SearchSafeMode.swift in Sources */,
+				FB518E67109F43803DB4728137BE8A80 /* SearchVideoCaption.swift in Sources */,
+				F8A34A98E8B84D12A0F2282256AA3E34 /* SearchVideoDefinition.swift in Sources */,
+				43CDEEC9FD1F4AEA553E34262B548C96 /* SearchVideoDimension.swift in Sources */,
+				6E860C0B3B848BFE435C0690FC3DB06A /* SearchVideoDuration.swift in Sources */,
+				7F9CAD81100B49AE4F57EBA8A634B65D /* SearchVideoEmbeddable.swift in Sources */,
+				19D7BFBF3770A940305A413F17D7885B /* SearchVideoLicense.swift in Sources */,
+				968C18C5FF6324E0C381C9D838115222 /* SearchVideoSyndicated.swift in Sources */,
+				F0A63E0A7674C60BE4F24B222C1A47FB /* SearchVideoType.swift in Sources */,
+				9D9B370B5E23CECD8242D908675E3D9D /* Snippet.swift in Sources */,
+				5B1119BCC7078C32917A4928480792E3 /* Statistics.swift in Sources */,
+				C750661638905399BB15DDE184AEB2A6 /* SubscriptionsList.swift in Sources */,
+				A6B8A41912F35FD88CB6FD6B0B6CEF7B /* SubscriptionsListRequest.swift in Sources */,
+				35016CB4850B3EC2E454DB18F764954B /* Thumbnail.swift in Sources */,
+				FF556DA7BFAD222FEA52DC0B662962AF /* VideoAbuseReportReasonsList.swift in Sources */,
+				9844CB080FE999FB8D076C9F62BE2D38 /* VideoAbuseReportReasonsListRequest.swift in Sources */,
+				2AC50A020E30D2D9AF3657206BDEEF24 /* VideoCategoriesList.swift in Sources */,
+				670040CB2884684B3FD41F3384F6D8BF /* VideoCategory.swift in Sources */,
+				B2878D64380DD3DBEBA252407FB9FF20 /* VideoCategoryListRequest.swift in Sources */,
+				862953C63008AE9D6AE1D305BC674CF2 /* VideoList.swift in Sources */,
+				48F718922CFC6139B1053B4851CDBBE4 /* VideoListRequest.swift in Sources */,
+				9B4CE97236E12565FC6F1D4003F2A216 /* YoutubeDataAPI.swift in Sources */,
+				9611CE34A9B088A1F70130D06AE57D78 /* YoutubeKit-dummy.m in Sources */,
+				A5CDB624A36C11E93DF14D62F76D82E0 /* YoutubeKit.swift in Sources */,
+				300185A2DFDDBACC20A9CDF52476DDDB /* YTSwiftyConstants.swift in Sources */,
+				C151506D28D76CC414C125710F8B54DC /* YTSwiftyPlayer.swift in Sources */,
+				52E7F432FD368F6E3ED85AF4F4C77833 /* YTSwiftyPlayerDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5D58C2860088DB9885A8BA2947955EE4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1029,14 +1436,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92D5E7B3D847F8D4D3DD9DC87C602DED /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A26D3FA848C301A2D226891548BC262F /* Pods-MAS Peer Assignment-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E6AD2710E15145DF444371EE38DD008A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1049,42 +1448,82 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03209C3DA927D6B0D96D8A20C94B924A /* PBXTargetDependency */ = {
+		0F3A06DF1BEC1D36422F21ACFFF1CCE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GoogleToolboxForMac;
-			target = 435FC0056BB50E0BBD153B5E1E6E6D53 /* GoogleToolboxForMac */;
-			targetProxy = 9F0C39FE87DA8D3020A54AA655842F92 /* PBXContainerItemProxy */;
+			name = "leveldb-library";
+			target = 97156FFAFF3C3C1CA4D0DB2811478C8E /* leveldb-library */;
+			targetProxy = 16FF7FB17809CBA7EBC5EABA96031F60 /* PBXContainerItemProxy */;
 		};
 		11FC3F159FFD0CEF67C573DEA0017D09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MAS Peer Assignment";
-			target = 60C61D78B485581FA67AA7A2C9756E46 /* Pods-MAS Peer Assignment */;
+			target = 5F67CA49CF059F9C99D12B558A48A558 /* Pods-MAS Peer Assignment */;
 			targetProxy = 0790FAD123C988950EEB0BABEAC536C0 /* PBXContainerItemProxy */;
-		};
-		38F4ADE08FE7B50E36EC628141FC9725 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = nanopb;
-			target = 8364BB258018143B83798DE31C13546D /* nanopb */;
-			targetProxy = 8FCF4F64EBD75CAA877A290B52ED47A3 /* PBXContainerItemProxy */;
 		};
 		82E4062DE13373A918BA5A92E86A9BAB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MAS Peer Assignment";
-			target = 60C61D78B485581FA67AA7A2C9756E46 /* Pods-MAS Peer Assignment */;
+			target = 5F67CA49CF059F9C99D12B558A48A558 /* Pods-MAS Peer Assignment */;
 			targetProxy = 9BF39F159234C8B21F040AD3498B960A /* PBXContainerItemProxy */;
 		};
-		9219B21535BDD80B223F30F6EC005C73 /* PBXTargetDependency */ = {
+		89BCA5A8E89EFEABBCA34B72F1A262EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "leveldb-library";
-			target = 97156FFAFF3C3C1CA4D0DB2811478C8E /* leveldb-library */;
-			targetProxy = 5673757A98E60D391C2852FCC468B1A7 /* PBXContainerItemProxy */;
+			name = GoogleToolboxForMac;
+			target = 435FC0056BB50E0BBD153B5E1E6E6D53 /* GoogleToolboxForMac */;
+			targetProxy = 7E7F2EE0EFA446C8FD3A10BA7581018B /* PBXContainerItemProxy */;
+		};
+		B7186DB8C0638020343B11E6B6E35279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = nanopb;
+			target = 8364BB258018143B83798DE31C13546D /* nanopb */;
+			targetProxy = EF9D30922FCFC2C90658573A6C4E58DD /* PBXContainerItemProxy */;
+		};
+		C008D0707AC2A0F90FCDFD546BF1C713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YoutubeKit;
+			target = B10DDE57A725992DCC4A3A73DFB03CD3 /* YoutubeKit */;
+			targetProxy = 1578E8CF2F7DE01B6F4104A295C7A092 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1A1EC18C4E48E971A4A3F130D48C9935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA111AAF1DE2970F0911CF99D7781B97 /* Pods-MAS Peer Assignment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MAS Peer Assignment/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAS Peer Assignment/Pods-MAS Peer Assignment.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		21D96D3206BFAB268D5C1D809FE179C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80A40B7B49E189457B478F2B19F03647 /* leveldb-library.xcconfig */;
+			baseConfigurationReference = 7BAF249D4BFE05423CE35BE65FFB5C69 /* leveldb-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1381,7 +1820,7 @@
 		};
 		987606D51C2E01D22590FA35D963FFA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07BE7973C94DB1E83B46D67A8452324 /* nanopb.xcconfig */;
+			baseConfigurationReference = C50DD6B1FCCD83CBF606A5E5AEF1B6DC /* nanopb.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1412,7 +1851,7 @@
 		};
 		9DB70D7F535F6909A23B19A5B94620F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B3367F99729FF9D0ABC67176E7C9E4 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = C992451E2E14DC6B6DF3A2849F74D77A /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1444,7 +1883,7 @@
 		};
 		ADC7805D7E6400034ED280F0EE497191 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80A40B7B49E189457B478F2B19F03647 /* leveldb-library.xcconfig */;
+			baseConfigurationReference = 7BAF249D4BFE05423CE35BE65FFB5C69 /* leveldb-library.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1474,73 +1913,7 @@
 			};
 			name = Release;
 		};
-		DA5F9AB333AF5485BD3A957FFC120C30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA111AAF1DE2970F0911CF99D7781B97 /* Pods-MAS Peer Assignment.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MAS Peer Assignment/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MAS Peer Assignment/Pods-MAS Peer Assignment.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E135A628B6844248845A6E97DA1DEFD9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C07BE7973C94DB1E83B46D67A8452324 /* nanopb.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
-				PRODUCT_MODULE_NAME = nanopb;
-				PRODUCT_NAME = nanopb;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F2B68703DB0E8C8F73D9FAD7871EC3A6 /* Release */ = {
+		C485DC4BAF74DC3D9C795FF3EAAEACB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9CEA0A30DC3F8363F636D2649E9FC27C /* Pods-MAS Peer Assignment.release.xcconfig */;
 			buildSettings = {
@@ -1575,9 +1948,104 @@
 			};
 			name = Release;
 		};
+		D2B5D37921229498E421E168EFCBEBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D87E7D6CF6351843FAC2D5A002BB12 /* YoutubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoutubeKit/YoutubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoutubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoutubeKit/YoutubeKit.modulemap";
+				PRODUCT_MODULE_NAME = YoutubeKit;
+				PRODUCT_NAME = YoutubeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E135A628B6844248845A6E97DA1DEFD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C50DD6B1FCCD83CBF606A5E5AEF1B6DC /* nanopb.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/nanopb/nanopb-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/nanopb/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/nanopb/nanopb.modulemap";
+				PRODUCT_MODULE_NAME = nanopb;
+				PRODUCT_NAME = nanopb;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1195E7925E40E1868323C17964FEC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D87E7D6CF6351843FAC2D5A002BB12 /* YoutubeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YoutubeKit/YoutubeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YoutubeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YoutubeKit/YoutubeKit.modulemap";
+				PRODUCT_MODULE_NAME = YoutubeKit;
+				PRODUCT_NAME = YoutubeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		FE93B5149B28C4588B0B0A5E892689A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2B3367F99729FF9D0ABC67176E7C9E4 /* GoogleToolboxForMac.xcconfig */;
+			baseConfigurationReference = C992451E2E14DC6B6DF3A2849F74D77A /* GoogleToolboxForMac.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1636,11 +2104,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		57297E36C071988E37A5633A8C54ED5B /* Build configuration list for PBXNativeTarget "Pods-MAS Peer Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A1EC18C4E48E971A4A3F130D48C9935 /* Debug */,
+				C485DC4BAF74DC3D9C795FF3EAAEACB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E1D202BBC6E1671CB02D2FD2B0E1304 /* Build configuration list for PBXNativeTarget "leveldb-library" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21D96D3206BFAB268D5C1D809FE179C1 /* Debug */,
 				ADC7805D7E6400034ED280F0EE497191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A033419E16A1AEF47AA63F8F2DFD4D26 /* Build configuration list for PBXNativeTarget "YoutubeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2B5D37921229498E421E168EFCBEBD2 /* Debug */,
+				F1195E7925E40E1868323C17964FEC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1659,15 +2145,6 @@
 			buildConfigurations = (
 				FE93B5149B28C4588B0B0A5E892689A7 /* Debug */,
 				9DB70D7F535F6909A23B19A5B94620F3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6A930D2E3921F73BFAB015D78C7FAB0 /* Build configuration list for PBXNativeTarget "Pods-MAS Peer Assignment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA5F9AB333AF5485BD3A957FFC120C30 /* Debug */,
-				F2B68703DB0E8C8F73D9FAD7871EC3A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
