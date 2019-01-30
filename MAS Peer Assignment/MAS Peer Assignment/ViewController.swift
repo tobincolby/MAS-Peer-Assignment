@@ -58,30 +58,31 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         let username: String = usernameText.text as String!
         let password: String = passwordText.text as String!
-//        if masterUsername == username && masterPass == password {
-//            self.performSegue(withIdentifier: "loginUser", sender: nil)
-//        } else {
-//            errorLabel.text = "Wrong username or password. Please try again."
-//            print("Wrong username or password. Please try again")
-//        }
+
         
         Auth.auth().signIn(withEmail: username, password: password) { (user, error) in
             // ...
-            if error != nil {
+            if let error = error {
+                print(error)
                 self.errorLabel.text = "Wrong username or password. Please try again."
                 print("Wrong username or password. Please try again")
                 return
+            } else {
+            
+                guard let userID = user?.uid else {
+                    print("This failed")
+                    self.errorLabel.text = "Wrong username or password. Please try again."
+                    print("Wrong username or password. Please try again")
+                    return
+                }
+                
+                let latitude = self.location?.coordinate.latitude ?? 0.0
+                let longitude = self.location?.coordinate.longitude ?? 0.0
+                
+                self.ref.child("users").child(userID).setValue(["latitude": latitude, "longitude": longitude])
+                print("Hi")
+                self.performSegue(withIdentifier: "loginUser", sender: nil)
             }
-            guard let userID = user?.uid else { self.errorLabel.text = "Wrong username or password. Please try again."
-                print("Wrong username or password. Please try again")
-                return }
-            
-            let latitude = self.location?.coordinate.latitude ?? 0.0
-            let longitude = self.location?.coordinate.longitude ?? 0.0
-            
-            self.ref.child("users").child(userID).setValue(["latitude": latitude, "longitude": longitude])
-            
-            self.performSegue(withIdentifier: "loginUser", sender: nil)
         }
         
     }
