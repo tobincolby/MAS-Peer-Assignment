@@ -64,14 +64,14 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             // ...
             if let error = error {
                 print(error)
-                self.errorLabel.text = "Wrong username or password. Please try again."
+                self.errorLabel.text = "Wrong email or password. Please try again."
                 print("Wrong username or password. Please try again")
                 return
             } else {
             
                 guard let userID = user?.uid else {
                     print("This failed")
-                    self.errorLabel.text = "Wrong username or password. Please try again."
+                    self.errorLabel.text = "Wrong email or password. Please try again."
                     print("Wrong username or password. Please try again")
                     return
                 }
